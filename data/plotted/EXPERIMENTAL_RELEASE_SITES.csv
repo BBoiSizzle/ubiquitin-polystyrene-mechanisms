@@ -1,0 +1,109 @@
+run,family,canonical_resid,resname,class_name,contact_occupancy,isolated_SASA_nm2,exposed_SASA_nm2,contact_share,opportunity,own_enrichment,experimental_scope
+face_nx_trial_1,Patch A,9,THR,Polar,0.71571072319202,1.2887479022697166,1.012992665355588,0.1179613645704891,0.0256500624877219,4.5988724053578585,low-concentration intensity
+face_nx_trial_1,Patch A,13,ILE,Aliphatic,0.0,0.1543624728550145,0.1543624728550145,0.0,0.0030722898307086,0.0,secondary/collective interpretation
+face_nx_trial_1,Patch A,24,GLU,Acidic,0.0,1.0568513480233557,1.0568513480233557,0.0,0.0210346050374085,0.0,low-concentration intensity
+face_nx_trial_1,Patch A,29,LYS,Lys/Arg,0.0,0.7280620123133247,0.7280620123133247,0.0,0.0144906820627087,0.0,secondary/collective interpretation
+face_nx_trial_1,Patch A,32,ASP,Acidic,0.0,1.2105270506423196,1.2105270506423196,0.0,0.0240932260198976,0.0,secondary/collective interpretation
+face_nx_trial_1,Patch A,75,GLY,Gly,0.1396508728179551,0.7835412481684744,0.7385240029773594,0.02301685162351,0.0155948901579843,1.4759226509669103,low-concentration intensity
+face_nx_trial_2,Patch A,9,THR,Polar,0.0324189526184538,1.3711008171976349,1.3562403402210754,0.0038427431274017,0.0276284483949844,0.1390864616233497,low-concentration intensity
+face_nx_trial_2,Patch A,13,ILE,Aliphatic,0.0,0.0847490470666714,0.0847490470666714,0.0,0.0017077407029713,0.0,secondary/collective interpretation
+face_nx_trial_2,Patch A,24,GLU,Acidic,0.0,1.085995504885544,1.085995504885544,0.0,0.0218834168775719,0.0,low-concentration intensity
+face_nx_trial_2,Patch A,29,LYS,Lys/Arg,0.0,0.8021426016901746,0.8021426016901746,0.0,0.0161636221043992,0.0,secondary/collective interpretation
+face_nx_trial_2,Patch A,32,ASP,Acidic,0.0,1.1883827212416096,1.1883827212416096,0.0,0.0239465765576758,0.0,secondary/collective interpretation
+face_nx_trial_2,Patch A,75,GLY,Gly,0.0,0.6911782489882575,0.6911782489882575,0.0,0.0139276283292851,0.0,low-concentration intensity
+face_nx_trial_3,Patch A,9,THR,Polar,0.6159600997506235,1.198409573531445,1.0680583031089217,0.0459193158579661,0.0240455959314593,1.909676765294432,low-concentration intensity
+face_nx_trial_3,Patch A,13,ILE,Aliphatic,0.0,0.1637955884230725,0.1637955884230725,0.0,0.0032864912143272,0.0,secondary/collective interpretation
+face_nx_trial_3,Patch A,24,GLU,Acidic,0.0,1.0603722429569855,1.0603722429569855,0.0,0.021275933582493,0.0,low-concentration intensity
+face_nx_trial_3,Patch A,29,LYS,Lys/Arg,0.0,0.6965992344014439,0.6965992344014439,0.0,0.0139769775597019,0.0,secondary/collective interpretation
+face_nx_trial_3,Patch A,32,ASP,Acidic,0.0,1.1534557379322288,1.1534557379322288,0.0,0.0231436156817499,0.0,secondary/collective interpretation
+face_nx_trial_3,Patch A,75,GLY,Gly,0.5486284289276808,0.746675506050204,0.6063987272389141,0.0408997955010225,0.0149817373850693,2.729976801074002,low-concentration intensity
+face_ny_trial_1,Patch A,9,THR,Polar,0.9800498753117208,1.2889866328533786,0.891176168197467,0.2319952774498229,0.0256860250467079,9.03196493143485,low-concentration intensity
+face_ny_trial_1,Patch A,13,ILE,Aliphatic,0.112219451371571,0.1324718422083943,0.0891188349097645,0.0265643447461629,0.0026398063177862,10.062990063771048,secondary/collective interpretation
+face_ny_trial_1,Patch A,24,GLU,Acidic,0.0,1.019682123337263,1.019682123337263,0.0,0.0203195129353218,0.0,low-concentration intensity
+face_ny_trial_1,Patch A,29,LYS,Lys/Arg,0.0,0.7680820285538097,0.7680820285538097,0.0,0.0153058020312329,0.0,secondary/collective interpretation
+face_ny_trial_1,Patch A,32,ASP,Acidic,0.0,1.198684189054701,1.198684189054701,0.0,0.0238865410380513,0.0,secondary/collective interpretation
+face_ny_trial_1,Patch A,75,GLY,Gly,0.0,0.7921489572819368,0.7921489572819368,0.0,0.0157853909721512,0.0,low-concentration intensity
+face_ny_trial_2,Transient/indeterminate,9,THR,Polar,0.0,1.2373428138685816,1.2373428138685816,0.0,0.0239756764593966,0.0,low-concentration intensity
+face_ny_trial_2,Transient/indeterminate,13,ILE,Aliphatic,0.0,0.1640656627254721,0.1640656627254721,0.0,0.0031790585466803,0.0,secondary/collective interpretation
+face_ny_trial_2,Transient/indeterminate,24,GLU,Acidic,0.0,1.0331305824680093,1.0331305824680093,0.0,0.0200187080798707,0.0,low-concentration intensity
+face_ny_trial_2,Transient/indeterminate,29,LYS,Lys/Arg,0.0,0.7502078870196401,0.7502078870196401,0.0,0.0145365870920076,0.0,secondary/collective interpretation
+face_ny_trial_2,Transient/indeterminate,32,ASP,Acidic,0.0,1.2238183750046625,1.2238183750046625,0.0,0.0237136168532294,0.0,secondary/collective interpretation
+face_ny_trial_2,Transient/indeterminate,75,GLY,Gly,0.0,0.8377323146955467,0.8377323146955467,0.0,0.0162325256279825,0.0,low-concentration intensity
+face_ny_trial_3,Transient/indeterminate,9,THR,Polar,0.0,1.396691494517856,1.396691494517856,,0.0280516885166509,,low-concentration intensity
+face_ny_trial_3,Transient/indeterminate,13,ILE,Aliphatic,0.0,0.1113546527462241,0.1113546527462241,,0.0022364896227818,,secondary/collective interpretation
+face_ny_trial_3,Transient/indeterminate,24,GLU,Acidic,0.0,1.0160468890343184,1.0160468890343184,,0.0204066760350265,,low-concentration intensity
+face_ny_trial_3,Transient/indeterminate,29,LYS,Lys/Arg,0.0,0.6721336385350168,0.6721336385350168,,0.0134993901973006,,secondary/collective interpretation
+face_ny_trial_3,Transient/indeterminate,32,ASP,Acidic,0.0,1.2513935227452972,1.2513935227452972,,0.0251334682351764,,secondary/collective interpretation
+face_ny_trial_3,Transient/indeterminate,75,GLY,Gly,0.0,0.6666602753562691,0.6666602753562691,,0.0133894610686194,,low-concentration intensity
+face_nz_trial_1,Patch A,9,THR,Polar,1.0,1.3167643385168948,0.4847234542723055,0.093669703340341,0.0269848294008784,3.471198648277978,low-concentration intensity
+face_nz_trial_1,Patch A,13,ILE,Aliphatic,0.0,0.1541957614690433,0.1541957614690433,0.0,0.003159977982292,0.0,secondary/collective interpretation
+face_nz_trial_1,Patch A,24,GLU,Acidic,0.0,0.8840459982554117,0.8840459982554117,0.0,0.0181170082965042,0.0,low-concentration intensity
+face_nz_trial_1,Patch A,29,LYS,Lys/Arg,0.0,0.755710009439492,0.755710009439492,0.0,0.0154869820549892,0.0,secondary/collective interpretation
+face_nz_trial_1,Patch A,32,ASP,Acidic,0.1022443890274314,1.218796310601411,1.1986808681193692,0.0095772015884139,0.0249771424954011,0.3834386415570676,secondary/collective interpretation
+face_nz_trial_1,Patch A,75,GLY,Gly,0.0,0.5611694462505388,0.5601773541650654,0.0,0.0115002064751481,0.0,low-concentration intensity
+face_nz_trial_2,Patch A,9,THR,Polar,0.3117206982543641,1.361259286050443,1.0999320068477112,0.0417641162712996,0.0273789612922533,1.5254090842049794,low-concentration intensity
+face_nz_trial_2,Patch A,13,ILE,Aliphatic,0.0,0.1215456930322595,0.1215456930322595,0.0,0.002444644351647,0.0,secondary/collective interpretation
+face_nz_trial_2,Patch A,24,GLU,Acidic,0.0,1.0372010852083748,1.0372010852083748,0.0,0.020861189822694,0.0,low-concentration intensity
+face_nz_trial_2,Patch A,29,LYS,Lys/Arg,0.0,0.7628254231847362,0.7628254231847362,0.0,0.0153426815509324,0.0,secondary/collective interpretation
+face_nz_trial_2,Patch A,32,ASP,Acidic,0.0,1.1833482561288056,1.1811345984906323,0.0,0.0238006428546085,0.0,secondary/collective interpretation
+face_nz_trial_2,Patch A,75,GLY,Gly,0.9276807980049876,0.8282425668504503,0.4452357220428961,0.1242900100233879,0.0166584143159003,7.461094895734097,low-concentration intensity
+face_nz_trial_3,Transient/indeterminate,9,THR,Polar,0.0,1.2329881757865715,1.2329881757865715,0.0,0.0246802428008766,0.0,low-concentration intensity
+face_nz_trial_3,Transient/indeterminate,13,ILE,Aliphatic,0.0,0.1370287435704175,0.1370287435704175,0.0,0.0027428508467727,0.0,secondary/collective interpretation
+face_nz_trial_3,Transient/indeterminate,24,GLU,Acidic,0.0049875311720698,1.0473204968888083,1.0414230646910492,0.0104166666666666,0.0209638053804214,0.4968881592649669,low-concentration intensity
+face_nz_trial_3,Transient/indeterminate,29,LYS,Lys/Arg,0.0,0.6995586922139297,0.6995586922139297,0.0,0.0140027931462435,0.0,secondary/collective interpretation
+face_nz_trial_3,Transient/indeterminate,32,ASP,Acidic,0.0,1.2253218977539628,1.2209319200044797,0.0,0.0245267899073781,0.0,secondary/collective interpretation
+face_nz_trial_3,Transient/indeterminate,75,GLY,Gly,0.1296758104738154,0.7849288649029202,0.7497340186878487,0.2708333333333334,0.0157116145536937,17.23777861325283,low-concentration intensity
+face_px_trial_1,Patch B,9,THR,Polar,0.0,1.3843847608860629,1.3843847608860629,0.0,0.0275257543498972,0.0,low-concentration intensity
+face_px_trial_1,Patch B,13,ILE,Aliphatic,0.0,0.0770513704736475,0.0770513704736475,0.0,0.001532014188471,0.0,secondary/collective interpretation
+face_px_trial_1,Patch B,24,GLU,Acidic,0.970074812967581,0.7803610497050815,0.4969646058700703,0.1977630910015251,0.0155159368734035,12.745804047483478,low-concentration intensity
+face_px_trial_1,Patch B,29,LYS,Lys/Arg,0.0,0.7926551007930144,0.7926551007930144,0.0,0.0157603797766864,0.0,secondary/collective interpretation
+face_px_trial_1,Patch B,32,ASP,Acidic,0.0,1.172008083190447,1.172008083190447,0.0,0.0233030639353081,0.0,secondary/collective interpretation
+face_px_trial_1,Patch B,75,GLY,Gly,0.0,0.8917729008344957,0.8917729008344957,0.0,0.0177311412966975,0.0,low-concentration intensity
+face_px_trial_2,Transient/indeterminate,9,THR,Polar,0.0,1.245309043077775,1.2446098761794009,,0.0249769289666068,,low-concentration intensity
+face_px_trial_2,Transient/indeterminate,13,ILE,Aliphatic,0.0,0.1416480718065559,0.1416480718065559,,0.0028410087017638,,secondary/collective interpretation
+face_px_trial_2,Transient/indeterminate,24,GLU,Acidic,0.0,1.0541839371492834,1.0541839371492834,,0.0211435687087282,,low-concentration intensity
+face_px_trial_2,Transient/indeterminate,29,LYS,Lys/Arg,0.0,0.7336365477538404,0.7336365477538404,,0.0147144100835136,,secondary/collective interpretation
+face_px_trial_2,Transient/indeterminate,32,ASP,Acidic,0.0,1.2512342782668124,1.2512342782668124,,0.0250957702929825,,secondary/collective interpretation
+face_px_trial_2,Transient/indeterminate,75,GLY,Gly,0.0,0.8257916650654357,0.8257916650654357,,0.016562747917239,,low-concentration intensity
+face_px_trial_3,Patch B,9,THR,Polar,0.0,1.343493365947111,1.343493365947111,0.0,0.0270081027663583,0.0,low-concentration intensity
+face_px_trial_3,Patch B,13,ILE,Aliphatic,0.0,0.1165705354953253,0.1165705354953253,0.0,0.0023434049486114,0.0,secondary/collective interpretation
+face_px_trial_3,Patch B,24,GLU,Acidic,0.7805486284289277,0.9239489649548944,0.5117024760003444,0.0949924127465857,0.018574046756666,5.114255067355963,low-concentration intensity
+face_px_trial_3,Patch B,29,LYS,Lys/Arg,0.0598503740648379,0.7973990322631083,0.7334018518895279,0.0072837632776934,0.0160300270585813,0.4543824692918564,secondary/collective interpretation
+face_px_trial_3,Patch B,32,ASP,Acidic,0.5660847880299252,1.1990716943034418,0.9009478033324818,0.0688922610015174,0.0241048094205875,2.858029690235908,secondary/collective interpretation
+face_px_trial_3,Patch B,75,GLY,Gly,0.0,0.8053004491476365,0.8053004491476365,0.0,0.0161888683931396,0.0,low-concentration intensity
+face_py_trial_1,Patch A,9,THR,Polar,0.8753117206982544,1.427081905765298,0.5598884763908974,0.0736003355001048,0.0285770068979704,2.575508896466413,low-concentration intensity
+face_py_trial_1,Patch A,13,ILE,Aliphatic,0.0,0.1176814045757055,0.1176814045757055,0.0,0.0023565447061844,0.0,secondary/collective interpretation
+face_py_trial_1,Patch A,24,GLU,Acidic,0.0,0.9208072342990358,0.9208072342990358,0.0,0.0184389659626111,0.0,low-concentration intensity
+face_py_trial_1,Patch A,29,LYS,Lys/Arg,0.0,0.8303104683204934,0.8303104683204934,0.0,0.0166267877721617,0.0,secondary/collective interpretation
+face_py_trial_1,Patch A,32,ASP,Acidic,0.0,1.1590339048409168,1.1590339048409168,0.0,0.0232094035806994,0.0,secondary/collective interpretation
+face_py_trial_1,Patch A,75,GLY,Gly,0.7955112219451371,0.5887600095183761,0.3796278950240876,0.0668903334032292,0.0117897920121361,5.673580444368628,low-concentration intensity
+face_py_trial_2,Transient/indeterminate,9,THR,Polar,0.0,1.2128666757065574,1.2128666757065574,0.0,0.0245695701867187,0.0,low-concentration intensity
+face_py_trial_2,Transient/indeterminate,13,ILE,Aliphatic,0.0,0.2228756297241758,0.2228756297241758,0.0,0.0045148890122051,0.0,secondary/collective interpretation
+face_py_trial_2,Transient/indeterminate,24,GLU,Acidic,0.0299251870324189,0.9963668724636972,0.9593945344289144,0.0105726872246695,0.0201838390773307,0.5238194371329566,low-concentration intensity
+face_py_trial_2,Transient/indeterminate,29,LYS,Lys/Arg,0.0,0.8104542118531687,0.8104542118531687,0.0,0.0164177250806633,0.0,secondary/collective interpretation
+face_py_trial_2,Transient/indeterminate,32,ASP,Acidic,0.0,1.228520622959843,1.228520622959843,0.0,0.024886679035896,0.0,secondary/collective interpretation
+face_py_trial_2,Transient/indeterminate,75,GLY,Gly,0.6059850374064838,0.8035469055175781,0.4849316010504593,0.2140969162995595,0.016277800758219,13.152693012995432,low-concentration intensity
+face_py_trial_3,Patch B,9,THR,Polar,0.0,1.2734431543467957,1.2734431543467957,0.0,0.0251517351643446,0.0,low-concentration intensity
+face_py_trial_3,Patch B,13,ILE,Aliphatic,0.0,0.1431934627255907,0.1431934627255907,0.0,0.0028282095195579,0.0,secondary/collective interpretation
+face_py_trial_3,Patch B,24,GLU,Acidic,0.9950124688279302,0.7780042982395784,0.0976793731183365,0.1193181818181818,0.0153663381040993,7.764906707756904,low-concentration intensity
+face_py_trial_3,Patch B,29,LYS,Lys/Arg,0.0349127182044887,0.7930712839703501,0.7427991455719795,0.0041866028708133,0.0156639256591714,0.2672767326600577,secondary/collective interpretation
+face_py_trial_3,Patch B,32,ASP,Acidic,0.0199501246882793,1.1872045934936146,1.1568827702675335,0.0023923444976076,0.0234484400968502,0.1020257419140224,secondary/collective interpretation
+face_py_trial_3,Patch B,75,GLY,Gly,0.0124688279301745,0.7515112853344575,0.7483017433572698,0.0014952153110047,0.0148430754503871,0.1007348723654016,low-concentration intensity
+face_pz_trial_1,Patch C,9,THR,Polar,0.0,1.3891907194514332,1.3891907194514332,0.0,0.0279987817999884,0.0,low-concentration intensity
+face_pz_trial_1,Patch C,13,ILE,Aliphatic,0.0,0.109234011536579,0.109234011536579,0.0,0.0022015834192714,0.0,secondary/collective interpretation
+face_pz_trial_1,Patch C,24,GLU,Acidic,0.0,1.0037448236971729,1.0037448236971729,0.0,0.0202302188663214,0.0,low-concentration intensity
+face_pz_trial_1,Patch C,29,LYS,Lys/Arg,0.0,0.7971456955980372,0.7971456955980372,0.0,0.0160662665545756,0.0,secondary/collective interpretation
+face_pz_trial_1,Patch C,32,ASP,Acidic,0.0,1.2397518143241788,1.2397518143241788,0.0,0.0249868790867746,0.0,secondary/collective interpretation
+face_pz_trial_1,Patch C,75,GLY,Gly,0.0,0.8196558672704815,0.8196558672704815,0.0,0.0165199532774368,0.0,low-concentration intensity
+face_pz_trial_2,Patch C,9,THR,Polar,0.0,1.6021163404723744,1.6021163404723744,0.0,0.0315793373035465,0.0,low-concentration intensity
+face_pz_trial_2,Patch C,13,ILE,Aliphatic,0.0,0.1179662826528519,0.1179662826528519,0.0,0.0023252350258418,0.0,secondary/collective interpretation
+face_pz_trial_2,Patch C,24,GLU,Acidic,0.0,0.9893433495804116,0.9893433495804116,0.0,0.0195009604210194,0.0,low-concentration intensity
+face_pz_trial_2,Patch C,29,LYS,Lys/Arg,0.0,0.8164706723189649,0.8164706723189649,0.0,0.0160934646930895,0.0,secondary/collective interpretation
+face_pz_trial_2,Patch C,32,ASP,Acidic,0.0,1.2104716654177066,1.2104716654177066,0.0,0.0238596237070653,0.0,secondary/collective interpretation
+face_pz_trial_2,Patch C,75,GLY,Gly,0.0,0.8387831559887639,0.8387831559887639,0.0,0.0165332663667187,0.0,low-concentration intensity
+face_pz_trial_3,Patch C,9,THR,Polar,0.0,1.206792390640871,1.206792390640871,0.0,0.0240973183452266,0.0,low-concentration intensity
+face_pz_trial_3,Patch C,13,ILE,Aliphatic,0.0,0.1544446969565786,0.1544446969565786,0.0,0.0030839629568084,0.0,secondary/collective interpretation
+face_pz_trial_3,Patch C,24,GLU,Acidic,0.0,0.9865373270011244,0.9865373270011244,0.0,0.0196992491936167,0.0,low-concentration intensity
+face_pz_trial_3,Patch C,29,LYS,Lys/Arg,0.0,0.7683172240669345,0.7683172240669345,0.0,0.0153418142855786,0.0,secondary/collective interpretation
+face_pz_trial_3,Patch C,32,ASP,Acidic,0.0,1.2138702736960516,1.2138702736960516,0.0,0.0242386500295442,0.0,secondary/collective interpretation
+face_pz_trial_3,Patch C,75,GLY,Gly,0.0,0.7194855246278975,0.7194855246278975,0.0,0.0143667393548393,0.0,low-concentration intensity

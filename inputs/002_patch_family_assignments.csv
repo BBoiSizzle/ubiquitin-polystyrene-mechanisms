@@ -1,0 +1,14 @@
+protocol_id,run_name,display_id,starting_face,trial,patch_family,patch_family_display,family_member_count,is_family_medoid,uno_recurrence,uno_jaccard,mean_similarity_to_family,assignment_relation_stability,mean_com_separation_nm
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_px_trial_1,PX-A,PX,1,Patch B,Patch B,3,False,False,0.0,0.5874125874125874,0.8333333333333334,4.970334606766394
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_px_trial_3,PX-C,PX,3,Patch B,Patch B,3,False,False,0.0,0.6025641025641025,0.8333333333333334,5.40870900086409
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_nx_trial_1,NX-A,NX,1,Patch A,Patch A (Uno region),7,False,False,0.26666666666666666,0.38159983291562233,0.8055555555555556,4.787916651830195
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_nx_trial_2,NX-B,NX,2,Patch A,Patch A (Uno region),7,False,False,0.1111111111111111,0.2893098129940235,0.75,5.203549757801668
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_nx_trial_3,NX-C,NX,3,Patch A,Patch A (Uno region),7,True,True,0.42105263157894735,0.4234003982287735,0.75,4.698032395393922
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_py_trial_1,PY-A,PY,1,Patch A,Patch A (Uno region),7,False,True,0.4375,0.39332706766917297,0.75,4.345353853820729
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_py_trial_3,PY-C,PY,3,Patch B,Patch B,3,True,False,0.0,0.6515151515151515,0.8333333333333334,4.720458200313794
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_ny_trial_1,NY-A,NY,1,Patch A,Patch A (Uno region),7,False,False,0.07692307692307693,0.24107762538213665,0.8333333333333334,5.164736681749053
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_pz_trial_1,PZ-A,PZ,1,Patch C,Patch C,3,False,False,0.0,0.6538461538461539,1.0,5.44870983243363
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_pz_trial_2,PZ-B,PZ,2,Patch C,Patch C,3,False,False,0.0,0.7371794871794872,1.0,5.39042271846961
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_pz_trial_3,PZ-C,PZ,3,Patch C,Patch C,3,True,False,0.0,0.75,1.0,5.053782883747001
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_nz_trial_1,NZ-A,NZ,1,Patch A,Patch A (Uno region),7,False,True,0.5,0.34620090599168724,0.8333333333333334,4.847393749663191
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,face_nz_trial_2,NZ-B,NZ,2,Patch A,Patch A (Uno region),7,False,True,0.5,0.32712191734748125,0.8333333333333334,5.521721359636924

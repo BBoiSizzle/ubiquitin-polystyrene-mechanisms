@@ -1,0 +1,792 @@
+{
+  "frozen_dataset": "AIM1-MECHANISM-20261016-v1",
+  "surface_addendum": "AIM1-SURFACE-20261021-v1",
+  "files": [
+    {
+      "public_path": "reproduce_figures.py",
+      "source_sha256": "a7446a29ed94846335ed9ba0699408fc3445157d858adae2322da7c8a87bb5db",
+      "public_sha256": "d00e3c7370e8a17ae88c0e4e7732343c154f3e5f174d75ff0e60698a1650a377",
+      "transformation": "portable path/output bookkeeping only; numerical operations unchanged"
+    },
+    {
+      "public_path": "reproduce_legacy_plots.py",
+      "source_sha256": "201477e0cde4542f8105850b059eeb3130f58b0594bb19ba75ba09b8adfd21dd",
+      "public_sha256": "e3e81d3117ae8cc0b45859e22e698d24c8da52863fb4258fbf06e06d0500c46e",
+      "transformation": "portable path/output bookkeeping only; numerical operations unchanged"
+    },
+    {
+      "public_path": "make_toc.py",
+      "source_sha256": "c7ba2b261a7a39a31bda266d5922a229b74f078152fe7af4e193723ffadf968e",
+      "public_sha256": "c7ba2b261a7a39a31bda266d5922a229b74f078152fe7af4e193723ffadf968e",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/001_completed_release_summary.csv",
+      "source_sha256": "149d706e2dc8f0a7159d71a44506b7f070fd552a84325e9c0c31760f9a38f8fd",
+      "public_sha256": "928828dcdf1ff5a6e7ab1bcdd930c64f630873d77140c5e91c10679ee4c55fb2",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "inputs/002_patch_family_assignments.csv",
+      "source_sha256": "802a33acb0872887251c065972fde331ec38a874d7afc4f938a68ed486cab29f",
+      "public_sha256": "ce19f849929f9222497c3aeec8bbc8513fa64b7ad024892e64dd15669eda3234",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "inputs/003_completed_release_residue_occupancy.csv",
+      "source_sha256": "a3c5e3fb72edaec7048de27966ec1e1d2127da06118bf0d0a05a09c87e894694",
+      "public_sha256": "a0a5d40ed1658724b41a9500d0b7f74dc24db832bc01abe03178fcfa079a3e53",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "inputs/004_RELEASE_FAMILY_CHEMISTRY.csv",
+      "source_sha256": "1f8aa89d17865100732b234dcb0b65920c424f86b6a687d2a5c644491af98b8b",
+      "public_sha256": "1f8aa89d17865100732b234dcb0b65920c424f86b6a687d2a5c644491af98b8b",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/005_NATIVE_MATCHED_CHEMISTRY.csv",
+      "source_sha256": "06b9df4b672f5fbba994b1a21cc251d37aa3c74b9521c561e7a53f8c1804b276",
+      "public_sha256": "06b9df4b672f5fbba994b1a21cc251d37aa3c74b9521c561e7a53f8c1804b276",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/006_RELEASE_CHEMISTRY.csv",
+      "source_sha256": "9519c8e4bdb78228d2d0272f949f40272c7be5a2fe7fbdbb3c0092c409292837",
+      "public_sha256": "9519c8e4bdb78228d2d0272f949f40272c7be5a2fe7fbdbb3c0092c409292837",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/007_ABC_MATCHED_ENERGIES.csv",
+      "source_sha256": "a4b5864928bf6b77b270ec1b0985a8c8c6c1f573f2a948817cee5ca7c5217c7d",
+      "public_sha256": "a4b5864928bf6b77b270ec1b0985a8c8c6c1f573f2a948817cee5ca7c5217c7d",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/008_MATCHED_STRUCTURE.csv",
+      "source_sha256": "a294ed94247051322643d66991f452d7ab32ac09ce9b735db2b3b6abff7cc63a",
+      "public_sha256": "a294ed94247051322643d66991f452d7ab32ac09ce9b735db2b3b6abff7cc63a",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/009_profile.csv",
+      "source_sha256": "44f9745057f9c9d0521c2f4d7a4a00f981d68868e76972130d190eb0d5303f7d",
+      "public_sha256": "44f9745057f9c9d0521c2f4d7a4a00f981d68868e76972130d190eb0d5303f7d",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/010_B_BANDS.csv",
+      "source_sha256": "11e6d599476e17f2e9f38e67baa6504a98d48f16c093f11da1b70f1ea01dcde0",
+      "public_sha256": "11e6d599476e17f2e9f38e67baa6504a98d48f16c093f11da1b70f1ea01dcde0",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/011_B_ATOM_GROUPS.csv",
+      "source_sha256": "9af80de8070baa497e8243df5bc10cb82f6486814141e4400c078e6c52151e06",
+      "public_sha256": "9af80de8070baa497e8243df5bc10cb82f6486814141e4400c078e6c52151e06",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/012_B_HEAVY_ATOM_CONTRIBUTORS.csv",
+      "source_sha256": "4c493b0b6d56c814ac07cf0725357a1c5bc3f35e4ff4acca773f20681a4d1cf2",
+      "public_sha256": "4c493b0b6d56c814ac07cf0725357a1c5bc3f35e4ff4acca773f20681a4d1cf2",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/013_B_DISTANCE_PROFILE.csv",
+      "source_sha256": "83ce3372f3bc4ea2ce2757e9ab9f911e4d73f21726b61dd01b46ff9704da365e",
+      "public_sha256": "83ce3372f3bc4ea2ce2757e9ab9f911e4d73f21726b61dd01b46ff9704da365e",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/014_PRIMARY_CONTRASTS.csv",
+      "source_sha256": "497586f42b58d4e2db000eb9228aeedd00cae45c684a9e2ec96d0b87854b913d",
+      "public_sha256": "497586f42b58d4e2db000eb9228aeedd00cae45c684a9e2ec96d0b87854b913d",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/015_ABC_COMMON_ACCESSIBLE_DENSITY.csv",
+      "source_sha256": "09c7a19882c9ab7b050394e166fa1212631dbe9fb334d01078ed0a8e7e8c7b76",
+      "public_sha256": "09c7a19882c9ab7b050394e166fa1212631dbe9fb334d01078ed0a8e7e8c7b76",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/016_MASK_SENSITIVITY_REVIEW.json",
+      "source_sha256": "224ac5b40ee2042e252981b67b352da0946bb47582c959b08ccfd78cbe88e8ba",
+      "public_sha256": "224ac5b40ee2042e252981b67b352da0946bb47582c959b08ccfd78cbe88e8ba",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/017_WINDOW_STRUCTURE.csv",
+      "source_sha256": "84819d1a175de535d483370c27b7c49b4c49b9fad46079eabda8feaa02aed7ee",
+      "public_sha256": "84819d1a175de535d483370c27b7c49b4c49b9fad46079eabda8feaa02aed7ee",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/018_EXPERIMENTAL_NATIVE_SITES.csv",
+      "source_sha256": "052a90291156f4a18a8c405a9746ba4395db9629d7017d3bec078f10d1ae4745",
+      "public_sha256": "052a90291156f4a18a8c405a9746ba4395db9629d7017d3bec078f10d1ae4745",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/019_EXPERIMENTAL_RELEASE_SITES.csv",
+      "source_sha256": "172bf55a62ea05e269c31706720487dfe3fb96e39ccdf89d56e1603ce94c35a4",
+      "public_sha256": "172bf55a62ea05e269c31706720487dfe3fb96e39ccdf89d56e1603ce94c35a4",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/020_NATIVE_MATCHED_RESIDUES.csv",
+      "source_sha256": "d42a4e5040b183962fe9cc50124c8a5aaab645e8ef50c4ac450cf0997ebe75ad",
+      "public_sha256": "d42a4e5040b183962fe9cc50124c8a5aaab645e8ef50c4ac450cf0997ebe75ad",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/021_RELEASE_RESIDUES.csv",
+      "source_sha256": "f57b59ba4e9512a58790370349bb1aea4a4ae717093e72fd4255f1898fb78997",
+      "public_sha256": "f57b59ba4e9512a58790370349bb1aea4a4ae717093e72fd4255f1898fb78997",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/022_B_SENSITIVITY.csv",
+      "source_sha256": "775747f950a08b520f57bbb358eb61be5ed7a7f1da4ec1530b49ad24b4422a7c",
+      "public_sha256": "775747f950a08b520f57bbb358eb61be5ed7a7f1da4ec1530b49ad24b4422a7c",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/023_AREA_MATCH_DISTANCE_CONTROL.csv",
+      "source_sha256": "314b9e018d08c6bc1ff66a0cf6f9fd04bec71b00191023d80aae98fdf2ce1ee0",
+      "public_sha256": "314b9e018d08c6bc1ff66a0cf6f9fd04bec71b00191023d80aae98fdf2ce1ee0",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/024_ABC_MATCHED_SUPPORT.csv",
+      "source_sha256": "66ac018539f37d6e1ae24e123c622f94b39bd72664f207986faf107214242634",
+      "public_sha256": "66ac018539f37d6e1ae24e123c622f94b39bd72664f207986faf107214242634",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/025_summary.json",
+      "source_sha256": "9605d3cbf3ccacbd05aae8c064348281afa6754e6b122843a50ff401481ee029",
+      "public_sha256": "9605d3cbf3ccacbd05aae8c064348281afa6754e6b122843a50ff401481ee029",
+      "transformation": "none"
+    },
+    {
+      "public_path": "inputs/026_summary.json",
+      "source_sha256": "3384292ec05e982a8f73a56382753a77b59be90b822efeb18b2d830bf978f152",
+      "public_sha256": "3384292ec05e982a8f73a56382753a77b59be90b822efeb18b2d830bf978f152",
+      "transformation": "none"
+    },
+    {
+      "public_path": "molecular_inputs/patch_a_nx-c_medoid.cxc",
+      "source_sha256": "8eda4ce1184d152cc89a200aed80ad0ebc9e9dd91a025bb609c05fc0c5c0ec9e",
+      "public_sha256": "cec07d364daa78ff117792f5aee928ee6fe35d51cec342a57387d32efdb0e6ea",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "molecular_inputs/patch_a_nx-c_medoid.pdb",
+      "source_sha256": "885617f6dc6123c138ee05d67c07f0bcac25549113dbe98e48e7350267fee0ce",
+      "public_sha256": "885617f6dc6123c138ee05d67c07f0bcac25549113dbe98e48e7350267fee0ce",
+      "transformation": "none"
+    },
+    {
+      "public_path": "molecular_inputs/patch_a_nx-c_medoid.png",
+      "source_sha256": "bae25b4a0ffb2f6bcfcc8e76fe48d119949a15400f6f1e6efa1b32981e2fd7de",
+      "public_sha256": "bae25b4a0ffb2f6bcfcc8e76fe48d119949a15400f6f1e6efa1b32981e2fd7de",
+      "transformation": "none"
+    },
+    {
+      "public_path": "molecular_inputs/patch_b_py-c_medoid.cxc",
+      "source_sha256": "d769a646fc8cfe07c98e669a6b5e601c657d0dc63f89f15e16180a9c2ce4e27d",
+      "public_sha256": "3f7ef0700cf25a47c56259ad2e9fe427d5f4447016658a0ee6719f90dcec3a92",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "molecular_inputs/patch_b_py-c_medoid.pdb",
+      "source_sha256": "0518a8e4ce9ce4ef6f562c566bdca4e2fdf79900bca306ca4ed37932b3498a6a",
+      "public_sha256": "0518a8e4ce9ce4ef6f562c566bdca4e2fdf79900bca306ca4ed37932b3498a6a",
+      "transformation": "none"
+    },
+    {
+      "public_path": "molecular_inputs/patch_b_py-c_medoid.png",
+      "source_sha256": "bab2bec5c7e3dd1b74065aa5e19ec0126bd100af28a96dce19f62c0c01ad7522",
+      "public_sha256": "bab2bec5c7e3dd1b74065aa5e19ec0126bd100af28a96dce19f62c0c01ad7522",
+      "transformation": "none"
+    },
+    {
+      "public_path": "molecular_inputs/patch_c_pz-c_medoid.cxc",
+      "source_sha256": "bce65eeabecd79eeecf6453746adcf9180972afb5323eae087069d510b8d9ce5",
+      "public_sha256": "f8a34df9f476c4ebdf56df7e175941b8ae9520cafeeb6f38a8c5256e954c0be2",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "molecular_inputs/patch_c_pz-c_medoid.pdb",
+      "source_sha256": "72bf913ca5f6c34436bc444312236a167e3422fc791efab1748222576a73c898",
+      "public_sha256": "72bf913ca5f6c34436bc444312236a167e3422fc791efab1748222576a73c898",
+      "transformation": "none"
+    },
+    {
+      "public_path": "molecular_inputs/patch_c_pz-c_medoid.png",
+      "source_sha256": "1d6d3552fef548dbbc7105fd90c67aa86b978c0b3a37b06a7eb4d8460bb9b091",
+      "public_sha256": "1d6d3552fef548dbbc7105fd90c67aa86b978c0b3a37b06a7eb4d8460bb9b091",
+      "transformation": "none"
+    },
+    {
+      "public_path": "molecular_inputs/patch_family_structure_manifest.csv",
+      "source_sha256": "48145b1c12776c9f869119e202be88a4225ab6d37fa454aadd84bd2072c0898d",
+      "public_sha256": "43d317da2c99c91ffa9a863e9b55737f3d0ad8d7a5696249ec3906aee5743868",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/supporting/aim1_contact_mechanism_20260930/analysis/ABC_MATCHED_SUPPORT.csv",
+      "source_sha256": "66ac018539f37d6e1ae24e123c622f94b39bd72664f207986faf107214242634",
+      "public_sha256": "66ac018539f37d6e1ae24e123c622f94b39bd72664f207986faf107214242634",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/supporting/aim1_contact_mechanism_20260930/analysis/B_SENSITIVITY.csv",
+      "source_sha256": "775747f950a08b520f57bbb358eb61be5ed7a7f1da4ec1530b49ad24b4422a7c",
+      "public_sha256": "775747f950a08b520f57bbb358eb61be5ed7a7f1da4ec1530b49ad24b4422a7c",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/supporting/aim1_contact_mechanism_20260930/hydration/STATIC_RESIDUE_SUPPORT.csv",
+      "source_sha256": "302d584e5ee5c3f6a4e30985d4536f8d2fb986a711e0c5b4b39bfdf3ed1c5084",
+      "public_sha256": "302d584e5ee5c3f6a4e30985d4536f8d2fb986a711e0c5b4b39bfdf3ed1c5084",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/supporting/aim1_mechanism_completion_20260930/chemistry/MATCHED_SUPPORT.csv",
+      "source_sha256": "6179008584a91b893df0d43e5a622800f59b566e1e92e2edc0e5c00d716c8e46",
+      "public_sha256": "6179008584a91b893df0d43e5a622800f59b566e1e92e2edc0e5c00d716c8e46",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/supporting/aim1_mechanism_completion_20260930/chemistry/RELEASE_FACE_SENSITIVITY.csv",
+      "source_sha256": "f5bf009200f1e88c84cb4accdfdca835f967df2b0c5b461657e96e79d840853b",
+      "public_sha256": "f5bf009200f1e88c84cb4accdfdca835f967df2b0c5b461657e96e79d840853b",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/supporting/aim1_mechanism_completion_20260930/structure/WINDOW_STRUCTURE.csv",
+      "source_sha256": "84819d1a175de535d483370c27b7c49b4c49b9fad46079eabda8feaa02aed7ee",
+      "public_sha256": "84819d1a175de535d483370c27b7c49b4c49b9fad46079eabda8feaa02aed7ee",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/supporting/gist_B_progress_20261005/integration_review/BULK_REFERENCE_SENSITIVITY.csv",
+      "source_sha256": "d3043154e7eee864ffb356a84b884b118f0ec240a7275248877ab0638c1becda",
+      "public_sha256": "d3043154e7eee864ffb356a84b884b118f0ec240a7275248877ab0638c1becda",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/supporting/gist_B_progress_20261005/integration_review/GEOMETRY_SUMMARY.csv",
+      "source_sha256": "3e1879bbbe008e5b1db46266d51453716518fefb0ce107e3e9da4201a34a4c92",
+      "public_sha256": "3e1879bbbe008e5b1db46266d51453716518fefb0ce107e3e9da4201a34a4c92",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/supporting/manuscript_execution_20260920/aim1/corrected_orientation/completed_release_summary.csv",
+      "source_sha256": "149d706e2dc8f0a7159d71a44506b7f070fd552a84325e9c0c31760f9a38f8fd",
+      "public_sha256": "928828dcdf1ff5a6e7ab1bcdd930c64f630873d77140c5e91c10679ee4c55fb2",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/supporting/manuscript_execution_20260920/aim1/corrected_orientation/contact_patch_chemistry_face_summary.csv",
+      "source_sha256": "918472bddd4cb7f11cacc57cb96baabeefb86b80512d07747ddd583f32d64084",
+      "public_sha256": "543529e15815cf94fefb74e9b13e9f855d99d6609e29a6c0e944d7b50e6aee2e",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/supporting/manuscript_execution_20260920/aim1/corrected_orientation/contact_patch_chemistry_run_summary.csv",
+      "source_sha256": "58c5637713ec72d9e60bb971022cb67bdb5c2edc844fd130d22ca57859f3f6df",
+      "public_sha256": "3d70f63b57b021d52e785ce57c7ffbd85cdb70aa6238dd10f0920ff795391e43",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/supporting/manuscript_execution_20260920/aim1/corrected_patch_atlas/patch_family_assignments.csv",
+      "source_sha256": "802a33acb0872887251c065972fde331ec38a874d7afc4f938a68ed486cab29f",
+      "public_sha256": "ce19f849929f9222497c3aeec8bbc8513fa64b7ad024892e64dd15669eda3234",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/supporting/manuscript_execution_20260920/aim1/corrected_patch_atlas/patch_family_sensitivity.csv",
+      "source_sha256": "0fae5a19a971852c15b8cf250ca45090a86c2cfdf76204fc053c2ba5cfc9eb24",
+      "public_sha256": "4817614aeaddf7eec6fdeea960f266dd091ddea3478e2ceda03f45063587b60a",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/supporting/manuscript_execution_20260920/aim1/corrected_patch_atlas/patch_family_summary.csv",
+      "source_sha256": "ecb61f600e3d3be68ee4f18a475640d88e0cc3be2c1a67a11c37ed656320be3e",
+      "public_sha256": "c5a6f3f7c788b3ccfe28ac70bc9cdf1f517f0c02769745d214dd75a4f012f6bf",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/supporting/next_steps_20260925/aim1/structure_reproduction/windows.csv",
+      "source_sha256": "bae4191b25fb05526b129518bf9f2c168931bef93319686b1f639fb91c3a2055",
+      "public_sha256": "db436aff1cb35c11275f3cf84610a40d863e71442e81dd9456b328024fd054bd",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/plotted/ABC_COMMON_ACCESSIBLE_DENSITY.csv",
+      "source_sha256": "09c7a19882c9ab7b050394e166fa1212631dbe9fb334d01078ed0a8e7e8c7b76",
+      "public_sha256": "09c7a19882c9ab7b050394e166fa1212631dbe9fb334d01078ed0a8e7e8c7b76",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/ABC_MATCHED_ENERGIES.csv",
+      "source_sha256": "a4b5864928bf6b77b270ec1b0985a8c8c6c1f573f2a948817cee5ca7c5217c7d",
+      "public_sha256": "a4b5864928bf6b77b270ec1b0985a8c8c6c1f573f2a948817cee5ca7c5217c7d",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/ABC_MATCHED_SUPPORT.csv",
+      "source_sha256": "66ac018539f37d6e1ae24e123c622f94b39bd72664f207986faf107214242634",
+      "public_sha256": "66ac018539f37d6e1ae24e123c622f94b39bd72664f207986faf107214242634",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/AREA_MATCH_DISTANCE_CONTROL.csv",
+      "source_sha256": "314b9e018d08c6bc1ff66a0cf6f9fd04bec71b00191023d80aae98fdf2ce1ee0",
+      "public_sha256": "314b9e018d08c6bc1ff66a0cf6f9fd04bec71b00191023d80aae98fdf2ce1ee0",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/B_ATOM_GROUPS.csv",
+      "source_sha256": "9af80de8070baa497e8243df5bc10cb82f6486814141e4400c078e6c52151e06",
+      "public_sha256": "9af80de8070baa497e8243df5bc10cb82f6486814141e4400c078e6c52151e06",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/B_BANDS.csv",
+      "source_sha256": "11e6d599476e17f2e9f38e67baa6504a98d48f16c093f11da1b70f1ea01dcde0",
+      "public_sha256": "11e6d599476e17f2e9f38e67baa6504a98d48f16c093f11da1b70f1ea01dcde0",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/B_DISTANCE_PROFILE.csv",
+      "source_sha256": "83ce3372f3bc4ea2ce2757e9ab9f911e4d73f21726b61dd01b46ff9704da365e",
+      "public_sha256": "83ce3372f3bc4ea2ce2757e9ab9f911e4d73f21726b61dd01b46ff9704da365e",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/B_HEAVY_ATOM_CONTRIBUTORS.csv",
+      "source_sha256": "4c493b0b6d56c814ac07cf0725357a1c5bc3f35e4ff4acca773f20681a4d1cf2",
+      "public_sha256": "4c493b0b6d56c814ac07cf0725357a1c5bc3f35e4ff4acca773f20681a4d1cf2",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/B_SENSITIVITY.csv",
+      "source_sha256": "775747f950a08b520f57bbb358eb61be5ed7a7f1da4ec1530b49ad24b4422a7c",
+      "public_sha256": "775747f950a08b520f57bbb358eb61be5ed7a7f1da4ec1530b49ad24b4422a7c",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/B_conditional_PMF.csv",
+      "source_sha256": "44f9745057f9c9d0521c2f4d7a4a00f981d68868e76972130d190eb0d5303f7d",
+      "public_sha256": "44f9745057f9c9d0521c2f4d7a4a00f981d68868e76972130d190eb0d5303f7d",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/EXPERIMENTAL_NATIVE_SITES.csv",
+      "source_sha256": "052a90291156f4a18a8c405a9746ba4395db9629d7017d3bec078f10d1ae4745",
+      "public_sha256": "052a90291156f4a18a8c405a9746ba4395db9629d7017d3bec078f10d1ae4745",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/EXPERIMENTAL_RELEASE_SITES.csv",
+      "source_sha256": "172bf55a62ea05e269c31706720487dfe3fb96e39ccdf89d56e1603ce94c35a4",
+      "public_sha256": "172bf55a62ea05e269c31706720487dfe3fb96e39ccdf89d56e1603ce94c35a4",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/EXPERIMENTAL_SIX_SITES.csv",
+      "source_sha256": "e0c4aefad192b0976d5b3724f777488910a9ec34a12afff45766d7265ddf6ad5",
+      "public_sha256": "e0c4aefad192b0976d5b3724f777488910a9ec34a12afff45766d7265ddf6ad5",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/F1_face_counts.csv",
+      "source_sha256": "5b5ff6f83c31cf8b7c53b3d3d30abfdbef5828dfbddc39013ac30a9109991739",
+      "public_sha256": "5b5ff6f83c31cf8b7c53b3d3d30abfdbef5828dfbddc39013ac30a9109991739",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/F1_family_mean_occupancy.csv",
+      "source_sha256": "18d3f08ae05dc9fe79ce19128aac5b8c4ff1778972601e48a6f209f5b83cf5fb",
+      "public_sha256": "18d3f08ae05dc9fe79ce19128aac5b8c4ff1778972601e48a6f209f5b83cf5fb",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/F2_native_contact_chemistry.csv",
+      "source_sha256": "567a007fdb2f20016d11ffcc4b069733478247e36b43ebe644aee3929a69fa89",
+      "public_sha256": "567a007fdb2f20016d11ffcc4b069733478247e36b43ebe644aee3929a69fa89",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/F3_matched_contact.csv",
+      "source_sha256": "f233832e327c6d5dcb2fefb469fe3674306fa3b0f37f43a71df7024d4258440c",
+      "public_sha256": "f233832e327c6d5dcb2fefb469fe3674306fa3b0f37f43a71df7024d4258440c",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/F5_hydration_contrasts.csv",
+      "source_sha256": "7fbb9100ecfd751b72328b8da799403e59f63238dbafbb8ea987cacb0911ac73",
+      "public_sha256": "7fbb9100ecfd751b72328b8da799403e59f63238dbafbb8ea987cacb0911ac73",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/F6_window_structure.csv",
+      "source_sha256": "783df8378d260d7797e022a1845d21c915a46201ebce360c0695d3defda13723",
+      "public_sha256": "783df8378d260d7797e022a1845d21c915a46201ebce360c0695d3defda13723",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/MATCHED_STRUCTURE.csv",
+      "source_sha256": "a294ed94247051322643d66991f452d7ab32ac09ce9b735db2b3b6abff7cc63a",
+      "public_sha256": "a294ed94247051322643d66991f452d7ab32ac09ce9b735db2b3b6abff7cc63a",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/NATIVE_MATCHED_CHEMISTRY.csv",
+      "source_sha256": "06b9df4b672f5fbba994b1a21cc251d37aa3c74b9521c561e7a53f8c1804b276",
+      "public_sha256": "06b9df4b672f5fbba994b1a21cc251d37aa3c74b9521c561e7a53f8c1804b276",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/NATIVE_MATCHED_RESIDUES.csv",
+      "source_sha256": "d42a4e5040b183962fe9cc50124c8a5aaab645e8ef50c4ac450cf0997ebe75ad",
+      "public_sha256": "d42a4e5040b183962fe9cc50124c8a5aaab645e8ef50c4ac450cf0997ebe75ad",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/PRIMARY_CONTRASTS.csv",
+      "source_sha256": "497586f42b58d4e2db000eb9228aeedd00cae45c684a9e2ec96d0b87854b913d",
+      "public_sha256": "497586f42b58d4e2db000eb9228aeedd00cae45c684a9e2ec96d0b87854b913d",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/QUANTITATIVE_CLAIM_AUDIT.csv",
+      "source_sha256": "3fb50a6e8f574a7b5016f2325318d5acef477e175dc31587efdfcfe805b3a7e4",
+      "public_sha256": "3fb50a6e8f574a7b5016f2325318d5acef477e175dc31587efdfcfe805b3a7e4",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/RELEASE_CHEMISTRY.csv",
+      "source_sha256": "9519c8e4bdb78228d2d0272f949f40272c7be5a2fe7fbdbb3c0092c409292837",
+      "public_sha256": "9519c8e4bdb78228d2d0272f949f40272c7be5a2fe7fbdbb3c0092c409292837",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/RELEASE_FAMILY_CHEMISTRY.csv",
+      "source_sha256": "1f8aa89d17865100732b234dcb0b65920c424f86b6a687d2a5c644491af98b8b",
+      "public_sha256": "1f8aa89d17865100732b234dcb0b65920c424f86b6a687d2a5c644491af98b8b",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/RELEASE_RESIDUES.csv",
+      "source_sha256": "f57b59ba4e9512a58790370349bb1aea4a4ae717093e72fd4255f1898fb78997",
+      "public_sha256": "f57b59ba4e9512a58790370349bb1aea4a4ae717093e72fd4255f1898fb78997",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/WINDOW_STRUCTURE.csv",
+      "source_sha256": "84819d1a175de535d483370c27b7c49b4c49b9fad46079eabda8feaa02aed7ee",
+      "public_sha256": "84819d1a175de535d483370c27b7c49b4c49b9fad46079eabda8feaa02aed7ee",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/completed_release_residue_occupancy.csv",
+      "source_sha256": "a3c5e3fb72edaec7048de27966ec1e1d2127da06118bf0d0a05a09c87e894694",
+      "public_sha256": "a0a5d40ed1658724b41a9500d0b7f74dc24db832bc01abe03178fcfa079a3e53",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/plotted/completed_release_summary.csv",
+      "source_sha256": "149d706e2dc8f0a7159d71a44506b7f070fd552a84325e9c0c31760f9a38f8fd",
+      "public_sha256": "928828dcdf1ff5a6e7ab1bcdd930c64f630873d77140c5e91c10679ee4c55fb2",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "data/plotted/experimental_native_contact_sites.csv",
+      "source_sha256": "b646627ba1cdfdfc22f4ee7ea90a4fab9b425f72fed4e12d0a953c3137c5fa82",
+      "public_sha256": "b646627ba1cdfdfc22f4ee7ea90a4fab9b425f72fed4e12d0a953c3137c5fa82",
+      "transformation": "none"
+    },
+    {
+      "public_path": "data/plotted/patch_family_assignments.csv",
+      "source_sha256": "802a33acb0872887251c065972fde331ec38a874d7afc4f938a68ed486cab29f",
+      "public_sha256": "ce19f849929f9222497c3aeec8bbc8513fa64b7ad024892e64dd15669eda3234",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/BOUNDARY_DISPLACEMENT.csv",
+      "source_sha256": "28321628920a27b851a2bc79effd0ad814d671aa004690887fc3b48777068078",
+      "public_sha256": "7ddb280a2134f184113a498a1e879079eeccbbc3c1ec2bb240d391195cf72f7c",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/CONNECTIVITY_CONTROL.csv",
+      "source_sha256": "66f83a48ac019db44eb1a3f4e15476cbb23f4198c615073a0affa024428afc61",
+      "public_sha256": "7dca12e7ca50fe30e9bfab7f2517c8c5f651c7b992f0d1b522b7ac17caad8d99",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/CONTROLS.csv",
+      "source_sha256": "58e3c36268c9759f80af11bfc005e42cc5b17f733c254524274ffe86e5162ca8",
+      "public_sha256": "5d32f54f9d623f6aa3a728801e6be2c9732030650d63f70fc0c2b8ec1b42dd06",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/CV_MATCHED_COMPARISONS.csv",
+      "source_sha256": "1eb1bba00450c1b7435300c9c788807b8bca0ace2103694a3477b7aeb27be5ee",
+      "public_sha256": "5141b912ebef6b42430e87946af364bd45d2d9419d3399e5ead01b99c75fb13e",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/CV_MATCHED_SUPPORT.csv",
+      "source_sha256": "1d5804476282b81d859b4d3fd7295019b7d0d7fb0ae4680498b76ac1919fe804",
+      "public_sha256": "4d53590ccee23dd12fdb0e0c94348c03d603a64d76568313c869436fd4c2dfe2",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/FRAME_GEOMETRY.csv",
+      "source_sha256": "ef9504bdef059d0f2e8848cb366c740b2a8daf56fd9fb57299a4c36339b73184",
+      "public_sha256": "f0ba9b1d0da083e514042b6e868b3762109a82d0869f454d96d0aa44618c57db",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/FRAME_MANIFEST.csv",
+      "source_sha256": "3f9fb10b5a5203051ce7f8d540f979dee5f63cc7f8b6ff3bc80e6a7976d210e1",
+      "public_sha256": "3b64110c7f1dc7dae675547481075d167b039cea5cd33d65960dd0481b9b3531",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/MAP_COMPRESSION.csv",
+      "source_sha256": "1bf615a5bb3a323b14528d9cf2b340b39e5b79a5b7edb5cace399ea5fd51c9f7",
+      "public_sha256": "252641be39ceeede1a602afbe72e67f028d4f758fef49681efac8d6ae569fad0",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/PROBE_SENSITIVITY.csv",
+      "source_sha256": "40a336488c10d37db939829fad9fc45bbe86b160cc3bfc0e26cfe7d3e6c47a95",
+      "public_sha256": "911c5c269339ac1ec7cf9227b8294d512df513ec62989c00c9812b1142f5ac58",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/SASA_BATCH_CORRECTION.csv",
+      "source_sha256": "ed5185bbecc4b9265044bba277d434656f0048fc6192dbd35195ad15873acdc5",
+      "public_sha256": "6bd1499f1f9ff5720f8d0f8a649cd691a32df8efa8908abfde58bc6bd1a07e74",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/SASA_CONTROL.csv",
+      "source_sha256": "aaef39bccca8143e9d5ede0c1358a4dde755e5ae3aecfdf6824709fe8b41711c",
+      "public_sha256": "79b81aa06cd2050914ba122bbc84607a4368beb6ec72c7dd16311fa312987aed",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/SURFACE_COMPARISONS.csv",
+      "source_sha256": "805e9070a9aada12df6389c22a709d96a25ed09b5a7628faa2f46d43dc2f3162",
+      "public_sha256": "43900b9ec1007888192b17d7cceab771385d3ac37e40063685224ade425c3340",
+      "transformation": "private locator replaced by basename"
+    },
+    {
+      "public_path": "surface/derived/A_4.8_all_external.npz",
+      "source_sha256": "8052337a92ea21e91ab092ede36b09a500e2742b1e63ff7a9726d692b03202d6",
+      "public_sha256": "8052337a92ea21e91ab092ede36b09a500e2742b1e63ff7a9726d692b03202d6",
+      "transformation": "none"
+    },
+    {
+      "public_path": "surface/derived/B_4.8_all_external.npz",
+      "source_sha256": "a7cae60f82b2b2293a3cd4597c7d4c92c3990b8ac11b035e848eb664d6951451",
+      "public_sha256": "a7cae60f82b2b2293a3cd4597c7d4c92c3990b8ac11b035e848eb664d6951451",
+      "transformation": "none"
+    },
+    {
+      "public_path": "surface/derived/C_4.8_all_external.npz",
+      "source_sha256": "f8a47b70cf160e1166166519bcf657979f956a60839db65b0416e7544ebbd8ec",
+      "public_sha256": "f8a47b70cf160e1166166519bcf657979f956a60839db65b0416e7544ebbd8ec",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_1.pdf",
+      "source_sha256": "5c144d01cefbfa52380f900e1f72963fad329fb2d7c0cb80f902e183a9f8f0aa",
+      "public_sha256": "5c144d01cefbfa52380f900e1f72963fad329fb2d7c0cb80f902e183a9f8f0aa",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_2.pdf",
+      "source_sha256": "c1afb3a00af8158aa81dcaee3d26bb79b00de75e081427ac589cb616520d94ad",
+      "public_sha256": "c1afb3a00af8158aa81dcaee3d26bb79b00de75e081427ac589cb616520d94ad",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_3.pdf",
+      "source_sha256": "d67c3d29bed9fe93d1b8d0ad74149db80b496dd44aef7c741d20a33dd2f6a0a3",
+      "public_sha256": "d67c3d29bed9fe93d1b8d0ad74149db80b496dd44aef7c741d20a33dd2f6a0a3",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_4.pdf",
+      "source_sha256": "2b83437948530a1154060b3b3fea15f869dd5913a04fb446968c15db263bbbf8",
+      "public_sha256": "2b83437948530a1154060b3b3fea15f869dd5913a04fb446968c15db263bbbf8",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_5.pdf",
+      "source_sha256": "456a8c10d4e5949f9173279607dd174b4e1e183694e93893c7eca212ddc5bddb",
+      "public_sha256": "456a8c10d4e5949f9173279607dd174b4e1e183694e93893c7eca212ddc5bddb",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_6.pdf",
+      "source_sha256": "5e1ee22c31769776b2220a8844c0be989d00666320e4a5a4a76ac78f67f30b0e",
+      "public_sha256": "5e1ee22c31769776b2220a8844c0be989d00666320e4a5a4a76ac78f67f30b0e",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s1.pdf",
+      "source_sha256": "f483e839be657302713bb7dacd72252224e84a2dc7db1d22dbf39d2335bb1c46",
+      "public_sha256": "f483e839be657302713bb7dacd72252224e84a2dc7db1d22dbf39d2335bb1c46",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s10.pdf",
+      "source_sha256": "2ba0e23be90f6f19d0d3470efbc0b44b0be957d5bd86b8c679b04668d5dc7fa5",
+      "public_sha256": "2ba0e23be90f6f19d0d3470efbc0b44b0be957d5bd86b8c679b04668d5dc7fa5",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s11.pdf",
+      "source_sha256": "3bfc58300e03a4a5b641c31320c7dc02d5bd67e0cf0de86484a828b9bb0c7a15",
+      "public_sha256": "3bfc58300e03a4a5b641c31320c7dc02d5bd67e0cf0de86484a828b9bb0c7a15",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s12.pdf",
+      "source_sha256": "6c0d96c84d70007c8b9d089defac8752c77582641c736ed5fa082a6894f36fa9",
+      "public_sha256": "6c0d96c84d70007c8b9d089defac8752c77582641c736ed5fa082a6894f36fa9",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s2.pdf",
+      "source_sha256": "386873dd4771ebad2a00afa504fdd0099eb694b6fb58e49c7dc6a93d4f316ff3",
+      "public_sha256": "386873dd4771ebad2a00afa504fdd0099eb694b6fb58e49c7dc6a93d4f316ff3",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s3.pdf",
+      "source_sha256": "1daa4bb19cf3ba1eacd20968d8af3f4d3700a37c51ea7c458cd24592af54be81",
+      "public_sha256": "1daa4bb19cf3ba1eacd20968d8af3f4d3700a37c51ea7c458cd24592af54be81",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s4.pdf",
+      "source_sha256": "ad28cfe65e066a626b1170c22415e0674ab7d9cc2061452b022a5ddc7095504b",
+      "public_sha256": "ad28cfe65e066a626b1170c22415e0674ab7d9cc2061452b022a5ddc7095504b",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s5.pdf",
+      "source_sha256": "f7fb222915ac7e5af259db97752f19324dab95593dd4d560ba1450195aa22185",
+      "public_sha256": "f7fb222915ac7e5af259db97752f19324dab95593dd4d560ba1450195aa22185",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s6.pdf",
+      "source_sha256": "7102ecd65b4bc3d195e6d269a1fca1ceaf1d9649aebc68836c0c0e28f3899ba3",
+      "public_sha256": "7102ecd65b4bc3d195e6d269a1fca1ceaf1d9649aebc68836c0c0e28f3899ba3",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s7.pdf",
+      "source_sha256": "7bb74f41365f343660bff5a66c9338eacb8b7f7e606159d334eea631977735ff",
+      "public_sha256": "7bb74f41365f343660bff5a66c9338eacb8b7f7e606159d334eea631977735ff",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s8.pdf",
+      "source_sha256": "c2c2d49d840ded713ee512e3c561798997c30f962cbe62c0cd3fe3bef7538e92",
+      "public_sha256": "c2c2d49d840ded713ee512e3c561798997c30f962cbe62c0cd3fe3bef7538e92",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/figure_s9.pdf",
+      "source_sha256": "0f2652cba9cd6cc885555cc0e193dba42efd93e70c857db89b275d8aa87d6a74",
+      "public_sha256": "0f2652cba9cd6cc885555cc0e193dba42efd93e70c857db89b275d8aa87d6a74",
+      "transformation": "none"
+    },
+    {
+      "public_path": "manuscript_figures/toc.pdf",
+      "source_sha256": "84e6d5cb7f6f548764d912f2071d7def4bd48ea25b1a3545c3198a22de46aefd",
+      "public_sha256": "84e6d5cb7f6f548764d912f2071d7def4bd48ea25b1a3545c3198a22de46aefd",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/patch_family_assignments.csv",
+      "source_sha256": "802a33acb0872887251c065972fde331ec38a874d7afc4f938a68ed486cab29f",
+      "public_sha256": "802a33acb0872887251c065972fde331ec38a874d7afc4f938a68ed486cab29f",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/patch_family_sensitivity.csv",
+      "source_sha256": "0fae5a19a971852c15b8cf250ca45090a86c2cfdf76204fc053c2ba5cfc9eb24",
+      "public_sha256": "0fae5a19a971852c15b8cf250ca45090a86c2cfdf76204fc053c2ba5cfc9eb24",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/patch_family_model_selection.csv",
+      "source_sha256": "850777136a902eb4785f7b1e1b79c370133a8fd4b69324e25a24c299d1289ac1",
+      "public_sha256": "850777136a902eb4785f7b1e1b79c370133a8fd4b69324e25a24c299d1289ac1",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/patch_family_geometry.csv",
+      "source_sha256": "5730f633b1ea421f9cc5c680aa77ab2f181dc2c73f1f6d633eb59b35a0686fb2",
+      "public_sha256": "5730f633b1ea421f9cc5c680aa77ab2f181dc2c73f1f6d633eb59b35a0686fb2",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/completed_release_residue_occupancy.csv",
+      "source_sha256": "a3c5e3fb72edaec7048de27966ec1e1d2127da06118bf0d0a05a09c87e894694",
+      "public_sha256": "a3c5e3fb72edaec7048de27966ec1e1d2127da06118bf0d0a05a09c87e894694",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/contact_patch_geometry_residue_motifs.csv",
+      "source_sha256": "a43476b3461a25ac40c3867e3883becc3a318de5c4707958c23283bcd66c3d07",
+      "public_sha256": "a43476b3461a25ac40c3867e3883becc3a318de5c4707958c23283bcd66c3d07",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/SURFACE_COMPARISONS.csv",
+      "source_sha256": "805e9070a9aada12df6389c22a709d96a25ed09b5a7628faa2f46d43dc2f3162",
+      "public_sha256": "805e9070a9aada12df6389c22a709d96a25ed09b5a7628faa2f46d43dc2f3162",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/SASA_CONTROL.csv",
+      "source_sha256": "aaef39bccca8143e9d5ede0c1358a4dde755e5ae3aecfdf6824709fe8b41711c",
+      "public_sha256": "aaef39bccca8143e9d5ede0c1358a4dde755e5ae3aecfdf6824709fe8b41711c",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/A_4.8_all_external.npz",
+      "source_sha256": "8052337a92ea21e91ab092ede36b09a500e2742b1e63ff7a9726d692b03202d6",
+      "public_sha256": "8052337a92ea21e91ab092ede36b09a500e2742b1e63ff7a9726d692b03202d6",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/B_4.8_all_external.npz",
+      "source_sha256": "a7cae60f82b2b2293a3cd4597c7d4c92c3990b8ac11b035e848eb664d6951451",
+      "public_sha256": "a7cae60f82b2b2293a3cd4597c7d4c92c3990b8ac11b035e848eb664d6951451",
+      "transformation": "none"
+    },
+    {
+      "public_path": "figure_revision/inputs/C_4.8_all_external.npz",
+      "source_sha256": "f8a47b70cf160e1166166519bcf657979f956a60839db65b0416e7544ebbd8ec",
+      "public_sha256": "f8a47b70cf160e1166166519bcf657979f956a60839db65b0416e7544ebbd8ec",
+      "transformation": "none"
+    }
+  ]
+}

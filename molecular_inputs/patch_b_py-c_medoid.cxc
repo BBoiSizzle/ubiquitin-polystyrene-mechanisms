@@ -1,0 +1,21 @@
+set bgColor white
+windowsize 1800 1300
+open patch_b_py-c_medoid.pdb
+hide #1 atoms
+cartoon #1/U
+color #1/U #c7d0d9
+show #1/P atoms
+style #1/P stick
+color #1/P #c5a24a
+transparency #1/P 60 target a
+show #1/U@@bfactor>0.4 atoms
+style #1/U@@bfactor>0.4 stick
+color #1/U@@bfactor>0.4 #3f3f3f
+show #1/U@@bfactor>0.9 atoms
+style #1/U@@bfactor>0.9 stick
+color #1/U@@bfactor>0.9 #9e2a2b
+view #1
+zoom 0.78
+lighting soft
+save patch_b_py-c_medoid.png width 1800 height 1300 supersample 3
+exit

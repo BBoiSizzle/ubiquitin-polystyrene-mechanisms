@@ -1,0 +1,4 @@
+patch_family,medoid_run,medoid_display_id,participant_residue_count,anchor_residue_count,anchor_residues,pdb,chimerax_script,png
+Patch A,face_nx_trial_3,NX-C,29,6,L8;T9;G10;H68;L71;L73,patch_a_nx-c_medoid.pdb,patch_a_nx-c_medoid.cxc,patch_a_nx-c_medoid.png
+Patch B,face_py_trial_3,PY-C,15,8,T22;E24;N25;A28;Q31;P38;D52;G53,patch_b_py-c_medoid.pdb,patch_b_py-c_medoid.cxc,patch_b_py-c_medoid.png
+Patch C,face_pz_trial_3,PZ-C,13,11,F45;A46;K48;L50;S57;Y59;N60;I61;Q62;K63;S65,patch_c_pz-c_medoid.pdb,patch_c_pz-c_medoid.cxc,patch_c_pz-c_medoid.png

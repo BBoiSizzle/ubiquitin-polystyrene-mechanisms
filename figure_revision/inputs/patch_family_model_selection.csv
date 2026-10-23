@@ -1,0 +1,6 @@
+persistent_contact_threshold,linkage,requested_families,actual_families,silhouette,minimum_family_size,all_families_recurrent
+0.2,average,2,2,0.2092947595695483,3,True
+0.2,average,3,3,0.32553474911151903,3,True
+0.2,average,4,4,0.3021050473131107,1,False
+0.2,average,5,5,0.3410148854473821,1,False
+0.2,average,6,6,0.3127200346721671,1,False

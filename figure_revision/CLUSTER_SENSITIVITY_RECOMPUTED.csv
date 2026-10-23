@@ -1,0 +1,7 @@
+threshold,linkage,agreed_pairs,total_pairs,agreement
+0.1,average,78,78,1.0
+0.1,complete,53,78,0.6794871794871795
+0.2,average,78,78,1.0
+0.2,complete,54,78,0.6923076923076923
+0.3,average,78,78,1.0
+0.3,complete,57,78,0.7307692307692307

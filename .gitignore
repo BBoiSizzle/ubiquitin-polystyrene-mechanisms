@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+reproduced_figures/
+reproduced_tables/
+review/
+supporting_figures/
+FACTS.json
+SOURCE_PINS.json
+FIGURE_MANIFEST.json
+REPRODUCED_FIGURES.json
+TOC_graphic.*
+surface/surface_voxelization_summary.*

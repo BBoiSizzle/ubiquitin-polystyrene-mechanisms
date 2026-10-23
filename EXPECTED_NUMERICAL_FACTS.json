@@ -1,0 +1,564 @@
+{
+  "retained_trials": 13,
+  "total_trials": 18,
+  "family_sizes": {
+    "Patch A": 7,
+    "Patch B": 3,
+    "Patch C": 3
+  },
+  "matched_contact": {
+    "A": {
+      "buried_protein_SASA_nm2": 7.366702509037562,
+      "LJ_SR": -216.4163878529064,
+      "LJ_per_buried_nm2_ratio_of_means": -29.37764726991541
+    },
+    "B": {
+      "buried_protein_SASA_nm2": 4.465844466857459,
+      "LJ_SR": -135.18681826845145,
+      "LJ_per_buried_nm2_ratio_of_means": -30.271277755353665
+    },
+    "C": {
+      "buried_protein_SASA_nm2": 4.532648741658745,
+      "LJ_SR": -138.3114360179772,
+      "LJ_per_buried_nm2_ratio_of_means": -30.514483671938244
+    }
+  },
+  "B_band_means": [
+    {
+      "band": "contact",
+      "metric": "LJ_SR",
+      "mean": -120.40958197803631,
+      "low": -125.47580819758576,
+      "high": -116.85826429255708
+    },
+    {
+      "band": "contact",
+      "metric": "Coul_PME",
+      "mean": -20.727588411343547,
+      "low": -23.4770253454618,
+      "high": -18.167664365076085
+    },
+    {
+      "band": "contact",
+      "metric": "direct_LJ_plus_PME",
+      "mean": -141.13717038937983,
+      "low": -147.53095778818357,
+      "high": -137.17581654652216
+    },
+    {
+      "band": "contact",
+      "metric": "LJ_repulsive",
+      "mean": 76.41227071401127,
+      "low": 73.06371458678794,
+      "high": 82.80556172126211
+    },
+    {
+      "band": "contact",
+      "metric": "LJ_attractive",
+      "mean": -196.8218526920476,
+      "low": -207.06150939210312,
+      "high": -191.96842999111604
+    },
+    {
+      "band": "contact",
+      "metric": "buried_protein_SASA_nm2",
+      "mean": 4.0690592254702524,
+      "low": 3.987418829375827,
+      "high": 4.216583926992475
+    },
+    {
+      "band": "contact",
+      "metric": "min_heavy_distance_nm",
+      "mean": 0.3244013785762279,
+      "low": 0.3203455793372917,
+      "high": 0.3287899151564772
+    },
+    {
+      "band": "contact",
+      "metric": "contacted_residues",
+      "mean": 8.967706912921631,
+      "low": 8.6373159743473,
+      "high": 9.592880848191797
+    },
+    {
+      "band": "contact",
+      "metric": "ps_rg_nm",
+      "mean": 2.6511928154551496,
+      "low": 2.6494352491737883,
+      "high": 2.65273837847754
+    },
+    {
+      "band": "contact",
+      "metric": "ps_shape_anisotropy",
+      "mean": 0.0246916341396352,
+      "low": 0.0237973556680726,
+      "high": 0.0251419668979397
+    },
+    {
+      "band": "contact",
+      "metric": "LJ_per_buried_area_ratio_of_means",
+      "mean": -29.5915039093885,
+      "low": -30.14601681422977,
+      "high": -28.833756714542638
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "LJ_SR",
+      "mean": -70.43962297681819,
+      "low": -74.08548738199744,
+      "high": -65.97369538359145
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "Coul_PME",
+      "mean": -5.977467533598806,
+      "low": -7.8086607034281155,
+      "high": -3.9610959603155473
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "direct_LJ_plus_PME",
+      "mean": -76.41709051041701,
+      "low": -81.26927669092264,
+      "high": -70.86275580305693
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "LJ_repulsive",
+      "mean": 34.39038158893056,
+      "low": 30.83768697557912,
+      "high": 37.52669169333795
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "LJ_attractive",
+      "mean": -104.83000456574872,
+      "low": -110.45916450096034,
+      "high": -97.8461888102162
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "buried_protein_SASA_nm2",
+      "mean": 2.5602249776427155,
+      "low": 2.4522762059416245,
+      "high": 2.645813389533189
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "min_heavy_distance_nm",
+      "mean": 0.341515119098461,
+      "low": 0.3370872659531368,
+      "high": 0.3459504275351237
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "contacted_residues",
+      "mean": 5.660070112483504,
+      "low": 5.261436159007742,
+      "high": 5.956177645317571
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "ps_rg_nm",
+      "mean": 2.653812072426516,
+      "low": 2.651634984422933,
+      "high": 2.656187240785047
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "ps_shape_anisotropy",
+      "mean": 0.0267618397385082,
+      "low": 0.026164339581254,
+      "high": 0.0272189660520299
+    },
+    {
+      "band": "PMF_minimum_band",
+      "metric": "LJ_per_buried_area_ratio_of_means",
+      "mean": -27.513059825576068,
+      "low": -28.446729972359982,
+      "high": -26.488815170688262
+    },
+    {
+      "band": "separated",
+      "metric": "LJ_SR",
+      "mean": -2.9588611879606075e-08,
+      "low": -1.0149616999985305e-07,
+      "high": 0.0
+    },
+    {
+      "band": "separated",
+      "metric": "Coul_PME",
+      "mean": -0.0494416783466608,
+      "low": -0.1840101566198126,
+      "high": 0.0579751836836142
+    },
+    {
+      "band": "separated",
+      "metric": "direct_LJ_plus_PME",
+      "mean": -0.0494417079352726,
+      "low": -0.1840101865505994,
+      "high": 0.0579751120582459
+    },
+    {
+      "band": "separated",
+      "metric": "LJ_repulsive",
+      "mean": 1.7736709934891058e-13,
+      "low": 0.0,
+      "high": 6.084124980633436e-13
+    },
+    {
+      "band": "separated",
+      "metric": "LJ_attractive",
+      "mean": -2.958878924670543e-08,
+      "low": -1.0149677841235112e-07,
+      "high": 0.0
+    },
+    {
+      "band": "separated",
+      "metric": "buried_protein_SASA_nm2",
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    {
+      "band": "separated",
+      "metric": "min_heavy_distance_nm",
+      "mean": 2.2916231089865366,
+      "low": 2.1443638848651365,
+      "high": 2.440841917822492
+    },
+    {
+      "band": "separated",
+      "metric": "contacted_residues",
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    {
+      "band": "separated",
+      "metric": "ps_rg_nm",
+      "mean": 2.6584853378076945,
+      "low": 2.6572074512484063,
+      "high": 2.659847445411711
+    },
+    {
+      "band": "separated",
+      "metric": "ps_shape_anisotropy",
+      "mean": 0.0270091193912643,
+      "low": 0.0265083320246074,
+      "high": 0.027639195607634
+    }
+  ],
+  "phenyl_percent": 88.85688365706574,
+  "hetero_percent": 38.130071704454714,
+  "hydration_primary": [
+    {
+      "region": "blocked_interface",
+      "metric": "N",
+      "delta": -13.150318301503184,
+      "low": -13.486750023052362,
+      "high": -12.813886579954003
+    },
+    {
+      "region": "blocked_interface",
+      "metric": "density",
+      "delta": -1.066997573076393,
+      "low": -1.0942951488601234,
+      "high": -1.0396999972926626
+    },
+    {
+      "region": "blocked_interface",
+      "metric": "Esw",
+      "delta": 153.45500880989852,
+      "low": 132.47396200730964,
+      "high": 174.4360556124874
+    },
+    {
+      "region": "blocked_interface",
+      "metric": "Eww_excess",
+      "delta": -61.18032139279049,
+      "low": -69.80991587313528,
+      "high": -52.5507269124457
+    },
+    {
+      "region": "blocked_interface",
+      "metric": "TS_trans",
+      "delta": 14.900380804109854,
+      "low": 12.281509346398074,
+      "high": 17.519252261821634
+    },
+    {
+      "region": "blocked_interface",
+      "metric": "TS_orient",
+      "delta": 19.146050016934524,
+      "low": 16.610686265417673,
+      "high": 21.68141376845137
+    },
+    {
+      "region": "blocked_interface",
+      "metric": "proxy",
+      "delta": 58.22825659606366,
+      "low": 50.01073949205175,
+      "high": 66.44577370007556
+    },
+    {
+      "region": "common_carbon",
+      "metric": "N",
+      "delta": 0.4970169649701694,
+      "low": 0.1665880894961174,
+      "high": 0.8274458404442215
+    },
+    {
+      "region": "common_carbon",
+      "metric": "density",
+      "delta": 0.198409960006249,
+      "low": 0.066502224047094,
+      "high": 0.3303176959654039
+    },
+    {
+      "region": "common_carbon",
+      "metric": "Esw",
+      "delta": -27.20191168992077,
+      "low": -31.815758832206683,
+      "high": -22.588064547634858
+    },
+    {
+      "region": "common_carbon",
+      "metric": "Eww_excess",
+      "delta": 18.24379619380028,
+      "low": 15.20953360167032,
+      "high": 21.278058785930245
+    },
+    {
+      "region": "common_carbon",
+      "metric": "TS_trans",
+      "delta": -5.567637180359111,
+      "low": -6.5431151019163165,
+      "high": -4.592159258801906
+    },
+    {
+      "region": "common_carbon",
+      "metric": "TS_orient",
+      "delta": -9.299523287459202,
+      "low": -10.607018978798964,
+      "high": -7.9920275961194385
+    },
+    {
+      "region": "common_carbon",
+      "metric": "proxy",
+      "delta": 5.909044971697824,
+      "low": 4.892315209736424,
+      "high": 6.925774733659225
+    },
+    {
+      "region": "common_hetero",
+      "metric": "N",
+      "delta": 1.2662400426624032,
+      "low": 0.5854572385082886,
+      "high": 1.9470228468165176
+    },
+    {
+      "region": "common_hetero",
+      "metric": "density",
+      "delta": 0.1234898340977348,
+      "low": 0.0570966172435594,
+      "high": 0.1898830509519102
+    },
+    {
+      "region": "common_hetero",
+      "metric": "Esw",
+      "delta": -64.32220067493375,
+      "low": -116.7329972665358,
+      "high": -11.91140408333171
+    },
+    {
+      "region": "common_hetero",
+      "metric": "Eww_excess",
+      "delta": 39.522743698232034,
+      "low": 19.969919171760463,
+      "high": 59.0755682247036
+    },
+    {
+      "region": "common_hetero",
+      "metric": "TS_trans",
+      "delta": -14.51065902436904,
+      "low": -21.30666364760889,
+      "high": -7.71465440112919
+    },
+    {
+      "region": "common_hetero",
+      "metric": "TS_orient",
+      "delta": -24.03466895240061,
+      "low": -31.18969275854836,
+      "high": -16.87964514625287
+    },
+    {
+      "region": "common_hetero",
+      "metric": "proxy",
+      "delta": 13.74587100006795,
+      "low": -5.971673417233312,
+      "high": 33.46341541736921
+    },
+    {
+      "region": "common_interface",
+      "metric": "N",
+      "delta": 1.763257007632571,
+      "low": 0.8580659997226591,
+      "high": 2.6684480155424835
+    },
+    {
+      "region": "common_interface",
+      "metric": "density",
+      "delta": 0.1381992829017624,
+      "low": 0.0672528808554033,
+      "high": 0.2091456849481215
+    },
+    {
+      "region": "common_interface",
+      "metric": "Esw",
+      "delta": -91.52411236485447,
+      "low": -148.22421409145724,
+      "high": -34.82401063825173
+    },
+    {
+      "region": "common_interface",
+      "metric": "Eww_excess",
+      "delta": 57.76653989203236,
+      "low": 34.95518731879173,
+      "high": 80.57789246527298
+    },
+    {
+      "region": "common_interface",
+      "metric": "TS_trans",
+      "delta": -20.078296204728154,
+      "low": -27.77517293053244,
+      "high": -12.381419478923869
+    },
+    {
+      "region": "common_interface",
+      "metric": "TS_orient",
+      "delta": -33.334192239859824,
+      "low": -42.12394125772333,
+      "high": -24.544443221996318
+    },
+    {
+      "region": "common_interface",
+      "metric": "proxy",
+      "delta": 19.65491597176576,
+      "low": 0.8308992918216411,
+      "high": 38.47893265170988
+    },
+    {
+      "region": "dynamic_common_0.8_interface",
+      "metric": "N",
+      "delta": 0.9406725994067244,
+      "low": 0.5068515922597969,
+      "high": 1.374493606553652
+    },
+    {
+      "region": "dynamic_common_0.8_interface",
+      "metric": "density",
+      "delta": 0.1079074716813841,
+      "low": 0.0581425221879081,
+      "high": 0.1576724211748601
+    },
+    {
+      "region": "dynamic_common_0.8_interface",
+      "metric": "Esw",
+      "delta": -44.6800466694485,
+      "low": -65.73478972814996,
+      "high": -23.625303610747046
+    },
+    {
+      "region": "dynamic_common_0.8_interface",
+      "metric": "Eww_excess",
+      "delta": 26.604096767829112,
+      "low": 17.42962090910745,
+      "high": 35.778572626550776
+    },
+    {
+      "region": "dynamic_common_0.8_interface",
+      "metric": "TS_trans",
+      "delta": -8.583309235645913,
+      "low": -11.786096906304458,
+      "high": -5.380521564987369
+    },
+    {
+      "region": "dynamic_common_0.8_interface",
+      "metric": "TS_orient",
+      "delta": -17.46904098425767,
+      "low": -21.80187535158908,
+      "high": -13.13620661692626
+    },
+    {
+      "region": "dynamic_common_0.8_interface",
+      "metric": "proxy",
+      "delta": 7.976400318284206,
+      "low": 3.148604408695016,
+      "high": 12.804196227873396
+    },
+    {
+      "region": "full_interface",
+      "metric": "N",
+      "delta": -17.426790654267904,
+      "low": -18.112362815370947,
+      "high": -16.74121849316486
+    },
+    {
+      "region": "full_interface",
+      "metric": "density",
+      "delta": -0.1683640526758051,
+      "low": -0.1749875164161167,
+      "high": -0.1617405889354936
+    },
+    {
+      "region": "full_interface",
+      "metric": "Esw",
+      "delta": 13.308278608579483,
+      "low": -22.82540937732894,
+      "high": 49.44196659448791
+    },
+    {
+      "region": "full_interface",
+      "metric": "Eww_excess",
+      "delta": 50.85697191821464,
+      "low": 30.93602026135807,
+      "high": 70.77792357507121
+    },
+    {
+      "region": "full_interface",
+      "metric": "TS_trans",
+      "delta": -35.77243714660264,
+      "low": -44.64185628551717,
+      "high": -26.90301800768811
+    },
+    {
+      "region": "full_interface",
+      "metric": "TS_orient",
+      "delta": -49.28790437566735,
+      "low": -57.11824974233059,
+      "high": -41.45755900900412
+    },
+    {
+      "region": "full_interface",
+      "metric": "proxy",
+      "delta": 149.2255920490639,
+      "low": 127.65563838750468,
+      "high": 170.79554571062312
+    }
+  ],
+  "structure_ranges": {
+    "reference_Q_1.2": [
+      0.9305732484076432,
+      0.99447983014862
+    ],
+    "core_CA_RMSD_nm": [
+      0.0674835169501313,
+      0.1207052341504986
+    ],
+    "ps_rg_nm": [
+      2.630009322228985,
+      2.705258827190101
+    ]
+  }
+}

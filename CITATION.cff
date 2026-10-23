@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using these data and figure scripts."
+title: "Recurring Ubiquitin Contact Patterns on a Disordered Polystyrene Nanoparticle: Reproducibility Materials"
+type: dataset
+authors:
+  - family-names: Borow
+    given-names: Benjamin
+  - family-names: Guo
+    given-names: Ashley Z.
+version: "2026.10.23"
+url: "https://github.com/BBoiSizzle/ubiquitin-polystyrene-mechanisms"
+repository-code: "https://github.com/BBoiSizzle/ubiquitin-polystyrene-mechanisms"
+keywords:
+  - ubiquitin
+  - polystyrene
+  - molecular dynamics
+  - protein adsorption
+  - hydration
+abstract: "Numerical figure source data, molecular snapshots and plotting code for a fixed mechanistic study of ubiquitin contacts on a disordered polystyrene nanoparticle. The conditional distance profiles do not establish preparation-independent adsorption affinity."

@@ -1,0 +1,78 @@
+family,chemical_class,omitted_face,remaining_runs,mean_own_enrichment
+Patch A,Acidic,NX,4,0.15337699863306337
+Patch A,Acidic,NY,6,0.0920387224964202
+Patch A,Acidic,NZ,5,0.012255131910746443
+Patch A,Acidic,PY,6,0.10225133242204225
+Patch A,Aliphatic,NX,4,1.8581818113176523
+Patch A,Aliphatic,NY,6,2.3632730342889334
+Patch A,Aliphatic,NZ,5,1.9045849294731514
+Patch A,Aliphatic,PY,6,1.9819988847721959
+Patch A,Aromatic,NX,4,0.0
+Patch A,Aromatic,NY,6,0.4999954261683865
+Patch A,Aromatic,NZ,5,0.5999945114020637
+Patch A,Aromatic,PY,6,0.4999954261683865
+Patch A,Gly,NX,4,2.3392011324270614
+Patch A,Gly,NY,6,2.066689431534026
+Patch A,Gly,NZ,5,2.1135300215572355
+Patch A,Gly,PY,6,2.045597638221954
+Patch A,His,NX,4,1.1177412653828804
+Patch A,His,NY,6,3.173991082489799
+Patch A,His,NZ,5,3.808789298987759
+Patch A,His,PY,6,2.428830238901212
+Patch A,Lys/Arg,NX,4,0.697295346036367
+Patch A,Lys/Arg,NY,6,0.6240005133121455
+Patch A,Lys/Arg,NZ,5,0.7259683502914304
+Patch A,Lys/Arg,PY,6,0.7428145900849353
+Patch A,Polar,NX,4,1.0219952391527525
+Patch A,Polar,NY,6,0.6557436144646341
+Patch A,Polar,NZ,5,0.8584121641644538
+Patch A,Polar,PY,6,0.8677560885158093
+Patch B,Acidic,PX,1,1.25826608271766
+Patch B,Acidic,PY,2,1.4162452016171267
+Patch B,Aliphatic,PX,1,0.6814890290161847
+Patch B,Aliphatic,PY,2,0.9151548981920682
+Patch B,Aromatic,PX,1,0.0
+Patch B,Aromatic,PY,2,0.0
+Patch B,Gly,PX,1,1.3861338833987544
+Patch B,Gly,PY,2,1.8881915227357653
+Patch B,His,PX,1,0.0
+Patch B,His,PY,2,0.0
+Patch B,Lys/Arg,PX,1,0.01710920533125307
+Patch B,Lys/Arg,PY,2,0.41108691209370374
+Patch B,Polar,PX,1,2.1884059538215572
+Patch B,Polar,PY,2,1.1695950450017243
+Patch C,Acidic,PZ,0,
+Patch C,Aliphatic,PZ,0,
+Patch C,Aromatic,PZ,0,
+Patch C,Gly,PZ,0,
+Patch C,His,PZ,0,
+Patch C,Lys/Arg,PZ,0,
+Patch C,Polar,PZ,0,
+Transient/indeterminate,Acidic,NY,3,0.49390404885999006
+Transient/indeterminate,Acidic,NZ,4,0.4033876198063262
+Transient/indeterminate,Acidic,PX,4,0.32926936590666006
+Transient/indeterminate,Acidic,PY,4,0.09051642905366386
+Transient/indeterminate,Aliphatic,NY,3,0.04936311869937075
+Transient/indeterminate,Aliphatic,NZ,4,0.0027592498227577257
+Transient/indeterminate,Aliphatic,PX,4,0.0329087457995805
+Transient/indeterminate,Aliphatic,PY,4,0.046603868876613025
+Transient/indeterminate,Aromatic,NY,3,0.0
+Transient/indeterminate,Aromatic,NZ,4,0.0
+Transient/indeterminate,Aromatic,PX,4,0.0
+Transient/indeterminate,Aromatic,PY,4,0.0
+Transient/indeterminate,Gly,NY,3,5.406607946442692
+Transient/indeterminate,Gly,NZ,4,2.9675020043658282
+Transient/indeterminate,Gly,PX,4,3.6044052976284617
+Transient/indeterminate,Gly,PY,4,2.4391059420768646
+Transient/indeterminate,His,NY,3,0.0
+Transient/indeterminate,His,NZ,4,0.0
+Transient/indeterminate,His,PX,4,0.0
+Transient/indeterminate,His,PY,4,0.0
+Transient/indeterminate,Lys/Arg,NY,3,1.4310381961083227
+Transient/indeterminate,Lys/Arg,NZ,4,2.4968690069931747
+Transient/indeterminate,Lys/Arg,PX,4,2.2747557041733013
+Transient/indeterminate,Lys/Arg,PY,4,2.8963599094184063
+Transient/indeterminate,Polar,NY,3,0.03939522834184065
+Transient/indeterminate,Polar,NZ,4,0.005535362729244454
+Transient/indeterminate,Polar,PX,4,0.0262634855612271
+Transient/indeterminate,Polar,PY,4,0.0338598656125962

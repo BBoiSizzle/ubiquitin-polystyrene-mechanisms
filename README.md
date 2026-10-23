@@ -10,9 +10,12 @@ An irregular polystyrene particle accommodates several ubiquitin contact pattern
 
 ## Reproduce figures from the supplied tables
 
+Eight larger figure and coordinate files are distributed as exact binary parts. The first command restores their original paths, checks every part and final file hash, and refuses to overwrite changed files. No scientific bytes are altered. Keep `large_file_parts/` and `LARGE_FILE_TRANSPORT.json` together with the repository.
+
 Use Python 3.12 (the verified version) and a virtual environment:
 
 ```bash
+python restore_large_files.py
 python -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -38,7 +41,8 @@ The main plotting code writes `reproduced_figures/`, `reproduced_tables/`, `supp
 | `surface/` | Surface comparisons and sensitivity tables and three mean occupancy maps. |
 | `manuscript_figures/` | Figure PDFs synchronized with the revised manuscript. |
 | `SOURCE_PROVENANCE.json` | Original and public-file fingerprints; any locator-only sanitization is disclosed. |
-| `PACKAGE_MANIFEST.json` | SHA-256 hashes of the files in this release. |
+| `PACKAGE_MANIFEST.json` | SHA-256 hashes of all distributed files. |
+| `LARGE_FILE_TRANSPORT.json`, `large_file_parts/` | Hash-pinned binary parts and exact original-file restoration map. |
 
 Full trajectories, restart files, MD engine/force-field distributions and raw GIST grids are **not included**. This repository supports reproduction and inspection of the reported figure-level results, not regeneration of every trajectory-level measurement. Raw data remain in the authors' preservation archives; no public raw-data URL is asserted here. The raw-data access/deposition arrangement must be described accurately in the submitted paper.
 

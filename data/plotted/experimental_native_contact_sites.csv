@@ -1,0 +1,19 @@
+phase,lo_nm,hi_nm,arm,resid,resname,occupancy,opportunity,enrichment,experimental_scope
+common_2_5ns,4.3,4.5,A,9,THR,0.4539186507936508,0.0268199223742485,1.3352806115863065,low-concentration intensity
+common_2_5ns,4.3,4.5,A,13,ILE,0.0,0.0018426610078655,0.0,secondary/collective interpretation
+common_2_5ns,4.3,4.5,A,24,GLU,0.0,0.0197593167543127,0.0,low-concentration intensity
+common_2_5ns,4.3,4.5,A,29,LYS,0.0,0.015141868590301,0.0,secondary/collective interpretation
+common_2_5ns,4.3,4.5,A,32,ASP,0.0,0.0231335821730779,0.0,secondary/collective interpretation
+common_2_5ns,4.3,4.5,A,75,GLY,0.2642857142857143,0.0149292802456125,1.3966476336991989,low-concentration intensity
+common_2_5ns,4.3,4.5,B,9,THR,0.0,0.0256675766455779,0.0,low-concentration intensity
+common_2_5ns,4.3,4.5,B,13,ILE,0.0,0.0045424561704929,0.0,secondary/collective interpretation
+common_2_5ns,4.3,4.5,B,24,GLU,0.9944444444444444,0.0159834806315448,5.84718245735678,low-concentration intensity
+common_2_5ns,4.3,4.5,B,29,LYS,1.0,0.0129705530776875,7.245677231737062,secondary/collective interpretation
+common_2_5ns,4.3,4.5,B,32,ASP,0.7114677601809954,0.022314424489523,2.996449851281884,secondary/collective interpretation
+common_2_5ns,4.3,4.5,B,75,GLY,0.0,0.0130769890082048,0.0,low-concentration intensity
+common_2_5ns,4.3,4.5,C,9,THR,0.0,0.0257929000275089,0.0,low-concentration intensity
+common_2_5ns,4.3,4.5,C,13,ILE,0.0,0.0040299976006856,0.0,secondary/collective interpretation
+common_2_5ns,4.3,4.5,C,24,GLU,0.0,0.0207288364412946,0.0,low-concentration intensity
+common_2_5ns,4.3,4.5,C,29,LYS,0.0,0.0143958375500951,0.0,secondary/collective interpretation
+common_2_5ns,4.3,4.5,C,32,ASP,0.0,0.0245247728020687,0.0,secondary/collective interpretation
+common_2_5ns,4.3,4.5,C,75,GLY,0.0,0.0142163644183789,0.0,low-concentration intensity

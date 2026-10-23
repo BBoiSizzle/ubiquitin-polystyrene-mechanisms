@@ -1,0 +1,46 @@
+[
+  {
+    "copied": "inputs/patch_family_assignments.csv",
+    "sha256": "802a33acb0872887251c065972fde331ec38a874d7afc4f938a68ed486cab29f"
+  },
+  {
+    "copied": "inputs/patch_family_sensitivity.csv",
+    "sha256": "0fae5a19a971852c15b8cf250ca45090a86c2cfdf76204fc053c2ba5cfc9eb24"
+  },
+  {
+    "copied": "inputs/patch_family_model_selection.csv",
+    "sha256": "850777136a902eb4785f7b1e1b79c370133a8fd4b69324e25a24c299d1289ac1"
+  },
+  {
+    "copied": "inputs/patch_family_geometry.csv",
+    "sha256": "5730f633b1ea421f9cc5c680aa77ab2f181dc2c73f1f6d633eb59b35a0686fb2"
+  },
+  {
+    "copied": "inputs/completed_release_residue_occupancy.csv",
+    "sha256": "a3c5e3fb72edaec7048de27966ec1e1d2127da06118bf0d0a05a09c87e894694"
+  },
+  {
+    "copied": "inputs/contact_patch_geometry_residue_motifs.csv",
+    "sha256": "a43476b3461a25ac40c3867e3883becc3a318de5c4707958c23283bcd66c3d07"
+  },
+  {
+    "copied": "inputs/SURFACE_COMPARISONS.csv",
+    "sha256": "805e9070a9aada12df6389c22a709d96a25ed09b5a7628faa2f46d43dc2f3162"
+  },
+  {
+    "copied": "inputs/SASA_CONTROL.csv",
+    "sha256": "aaef39bccca8143e9d5ede0c1358a4dde755e5ae3aecfdf6824709fe8b41711c"
+  },
+  {
+    "copied": "inputs/A_4.8_all_external.npz",
+    "sha256": "8052337a92ea21e91ab092ede36b09a500e2742b1e63ff7a9726d692b03202d6"
+  },
+  {
+    "copied": "inputs/B_4.8_all_external.npz",
+    "sha256": "a7cae60f82b2b2293a3cd4597c7d4c92c3990b8ac11b035e848eb664d6951451"
+  },
+  {
+    "copied": "inputs/C_4.8_all_external.npz",
+    "sha256": "f8a47b70cf160e1166166519bcf657979f956a60839db65b0416e7544ebbd8ec"
+  }
+]

@@ -1,0 +1,7 @@
+protocol_id,patch_family,motif,trajectory_count,trajectories_with_geometry,mean_trajectory_motif_fraction,bootstrap_95_low,bootstrap_95_high
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,Patch A,cation_over_ring,7,7,0.15520282186948853,0.06701940035273368,0.25396825396825395
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,Patch A,protein_aromatic_geometry,7,1,0.021164021164021163,0.0,0.06349206349206349
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,Patch B,cation_over_ring,3,1,0.14403292181069957,0.0,0.43209876543209874
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,Patch B,protein_aromatic_geometry,3,0,0.0,0.0,0.0
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,Patch C,cation_over_ring,3,3,0.2551440329218107,0.08641975308641975,0.5555555555555556
+aim1-patch-family-atlas-frame-independent-SASA-v1.1-20260920,Patch C,protein_aromatic_geometry,3,2,0.4526748971193415,0.0,0.9382716049382717

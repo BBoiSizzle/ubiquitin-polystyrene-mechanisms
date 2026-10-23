@@ -1,0 +1,10 @@
+area_bin_nm2,arm,frames,histories,distance_bins,weighting,LJ_SR,Coul_PME,buried_protein_SASA_nm2
+0.5,A,50,4,2,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-184.25810622551822,-31.62404793941668,6.264833703359629
+0.5,B,56,7,2,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-110.55875720659684,-19.60210276928166,3.7472036808120577
+0.5,C,44,5,2,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-103.73039197260057,-11.222771742489963,3.5958250445990148
+1.0,A,50,4,2,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-194.5942991772214,-33.71663888891951,6.583001706917775
+1.0,B,56,7,2,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-121.75490529260665,-20.570118992375075,4.057523416343955
+1.0,C,44,5,2,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-114.7241160250316,-9.496823071183519,3.9357013788242448
+2.0,A,70,5,3,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-192.72533247913697,-34.36351307324802,6.560251052079714
+2.0,B,109,8,3,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-115.47454783928285,-20.47253169234487,3.8992007238515605
+2.0,C,79,6,3,"Same distance-bin mass as joint distance/area comparison, all areas retained; equal windows within each distance bin.",-116.4568837203865,-9.935190966421809,3.881227863335458

@@ -1,0 +1,14 @@
+protocol_id,run_name,outcome,frames_1_to_5_ns,total_contact_residue_events,mean_contacting_residues_per_frame,release_patch_size,dominant_contact_class,classes_enriched_after_surface_correction
+contact-patch-chemistry-v1.0-20260801,face_nx_trial_1,retained,401,2433,6.067331670822942,9,hydrophobic_aliphatic,hydrophobic_aliphatic;histidine;glycine
+contact-patch-chemistry-v1.0-20260801,face_nx_trial_2,retained,401,3383,8.436408977556109,10,hydrophobic_aliphatic,hydrophobic_aliphatic;aromatic;histidine;glycine
+contact-patch-chemistry-v1.0-20260801,face_nx_trial_3,retained,401,5379,13.413965087281795,17,hydrophobic_aliphatic,hydrophobic_aliphatic;histidine;glycine
+contact-patch-chemistry-v1.0-20260801,face_ny_trial_1,retained,401,1694,4.224438902743142,4,polar_uncharged,polar_uncharged;cationic;glycine
+contact-patch-chemistry-v1.0-20260801,face_nz_trial_1,retained,401,4281,10.675810473815462,11,hydrophobic_aliphatic,hydrophobic_aliphatic
+contact-patch-chemistry-v1.0-20260801,face_nz_trial_2,retained,401,2993,7.4638403990024935,11,hydrophobic_aliphatic,hydrophobic_aliphatic;glycine
+contact-patch-chemistry-v1.0-20260801,face_px_trial_1,retained,401,1967,4.905236907730673,6,acidic,acidic;glycine
+contact-patch-chemistry-v1.0-20260801,face_px_trial_3,retained,401,3295,8.216957605985037,11,polar_uncharged,hydrophobic_aliphatic;polar_uncharged;glycine
+contact-patch-chemistry-v1.0-20260801,face_py_trial_1,retained,401,4769,11.892768079800499,13,hydrophobic_aliphatic,hydrophobic_aliphatic;histidine;glycine
+contact-patch-chemistry-v1.0-20260801,face_py_trial_3,retained,401,3344,8.339152119700747,10,polar_uncharged,polar_uncharged;acidic;glycine
+contact-patch-chemistry-v1.0-20260801,face_pz_trial_1,retained,401,1880,4.688279301745636,8,polar_uncharged,hydrophobic_aliphatic;polar_uncharged
+contact-patch-chemistry-v1.0-20260801,face_pz_trial_2,retained,401,3810,9.501246882793017,11,polar_uncharged,hydrophobic_aliphatic;polar_uncharged;aromatic
+contact-patch-chemistry-v1.0-20260801,face_pz_trial_3,retained,401,3800,9.476309226932669,10,polar_uncharged,hydrophobic_aliphatic;polar_uncharged;aromatic
